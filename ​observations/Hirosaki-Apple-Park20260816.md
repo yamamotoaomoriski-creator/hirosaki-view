@@ -106,6 +106,8 @@
 - **Human observation**: 古民家と現代的なイベント（津軽昔語り）の融合。建築空間の多目的利用を確認。
 - **Evidence**: 1989.jpg, 1991.jpg
 
+
+
 ---
 ## 14. ひまわり畑
 - **id**: AP-APPLE-014
@@ -113,3 +115,6 @@
 - **observation_type**: fixed_point
 - **Human observation**: 開花後の季節進行を確認（枯れ入り）。季節の推移を記録。
 - **Evidence**: 1993.jpg, 1995.jpg
+
+## General Info (FACT)
+- 販売品目: 約1200点 (一般情報ソースより精査)
