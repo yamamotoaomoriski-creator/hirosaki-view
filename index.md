@@ -44,7 +44,7 @@
 ## 観測ログ一覧（主要観測ログ）
 
 - [弘前公園 SHIROFES.設営観測（追手門・原っぱ・市民会館）](../observations/hirosaki-park-20260904.md) （2026-09-04実施）
-- [弘前市りんご公園観測記録](../observations/Hirosaki-Apple-Park20260816.md) （2025-08-16実施）
+- [弘前市りんご公園観測記録](../observations/Hirosaki-Apple-Park20260816.md) （2026-08-16実施）
 - [弘前公園フィールドワーク記録](../observations/hirosakipark.md) （2026-08-17実施）
 - [弘前市天守基礎耐震的観測ログ（弘前公園 2026-08-23実施・検証）](../observations/hirosaki-Park20260823.md) （2026-08-23実施）
 - [弘前駅前商店街冷熱観測ログ（弘前駅前〜鍛冶町）](../observations/hirosaki-station-kajimachi.md) （2026-08-19実施）
