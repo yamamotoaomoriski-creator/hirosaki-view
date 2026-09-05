@@ -14,3 +14,19 @@
 - [プロジェクトの目的 (hirosakiview-purpose.md)](hirosakiview-purpose.md)
 - [実験記録 (experiments/)](experiments/)
 - [設計・変遷 (docs/)](docs/)
+# AI Exploration Benchmark (v0.1)
+
+A minimal experimental framework to observe whether human-AI dialogue can update, reframe, or expand problem definitions beyond standard task-performance optimization.
+
+## Overview
+
+Most AI evaluations measure how effectively a model solves a fixed, pre-defined problem. This project provides a simple protocol to test a different dimension: what happens when a dialogue actively challenges assumptions, searches for missing variables, and iteratively updates the problem definition itself.
+
+We do not claim a definitive "new dimension" or absolute discovery. Rather, this repository provides a transparent, reproducible benchmark structure to record, compare, and analyze how dialogue conditions alter problem exploration.
+
+## Structure
+
+- `HYPOTHESIS.md`: Core concepts and working definitions.
+- `PROTOCOL.md`: Step-by-step experimental procedures.
+- `TASKS.md`: Initial test task sets.
+- `runs/`: Raw logs and observations from test runs.
