@@ -1,3 +1,11 @@
+---
+id: hv-20260830-hirosaki-park
+date: 2026-08-30
+location: hirosaki-park
+title: 弘前公園フィールドワーク観測録
+type: fixed-point
+observer: Hirosaki-View
+---
 # 弘前公園フィールドワーク観測録
 
 観測日時：2026年08月30日 13:00〜13:24  

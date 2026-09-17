@@ -1,3 +1,11 @@
+---
+id: hv-20260830-station-to-hirosaki-park
+date: 2026-08-30
+location: station-to-hirosaki-park
+title: 弘前フィールドワーク観測録：弘前駅〜弘前公園（別ルート）
+type: route
+observer: Hirosaki-View
+---
 # 弘前フィールドワーク観測録：弘前駅〜弘前公園（別ルート）
 
 観測日時：2026年08月30日（一部08月26日含む）  

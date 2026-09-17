@@ -1,3 +1,11 @@
+---
+id: hv-20260816-apple-park
+date: 2026-08-16
+location: apple-park
+title: 弘前市りんご公園 観測ログ一括ビルド
+type: fixed-point
+observer: Hirosaki-View
+---
 # HiroSaki-View: 弘前市りんご公園 観測ログ一括ビルド
 **Observer**: HiroSaki-View
 **Date**: 2026-08-16

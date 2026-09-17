@@ -1,3 +1,11 @@
+---
+id: hv-20260907-iwakisan-jinja
+date: 2026-09-07
+location: iwakisan-jinja
+title: Field Observation Report: Hirosaki View (HP-Iwakiyama)
+type: fixed-point
+observer: Hirosaki-View
+---
 # Field Observation Report: Hirosaki View (HP-Iwakiyama)
 
 - **Project**: 空間観測プロジェクト「ヒロサキビュー」

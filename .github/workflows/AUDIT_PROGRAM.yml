@@ -99,9 +99,9 @@ jobs:
                   for match in link_pattern.finditer(line):
                       target = match.group(1).strip()
 
-                      # 外部URL / アンカー / mailto は除外
+                      # 外部URL / アンカー / mailto / 特殊スパンタグ は除外
                       if target.startswith(
-                          ("http://", "https://", "#", "mailto:")
+                          ("http://", "https://", "#", "mailto:", "start_span", "end_span")
                       ):
                           continue
 

@@ -1,10 +1,11 @@
 ---
-id: HP-SUMMARY-001
-place: 弘前公園
-observation_period: 2026-09-04T12:40:00+09:00 - 2026-09-04T12:57:00+09:00
-observer: HiroSaki-View
-weather: 晴
-event: SHIROFES. 設営状況観測
+id: hv-20260904-shirofes-setup
+date: 2026-09-04
+location: hirosaki-park
+title: 弘前公園・観測ログ総括（2026.09.04）
+series: shirofes
+type: event-setup
+observer: Hirosaki-View
 ---
 
 # 弘前公園・観測ログ総括（2026.09.04）
