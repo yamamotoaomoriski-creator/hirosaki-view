@@ -55,15 +55,15 @@ Hirosaki Viewでは、単純な「写真集」ではなく、複数の観測パ�
 ## 5. 現在までの主要観測
 ここは全観測の一覧ではなく、代表的な観測系列への入口にする。
 
-* 2026-08-16　りんご公園 `[要確認: リンク先ファイル名未定]`
-* 2026-08-19　弘前駅〜鍛冶町周辺 `[要確認: リンク先ファイル名未定]`
-* 2026-08-22　弘前公園・曳戻し `[要確認: リンク先ファイル名未定]`
-* 2026-08-29〜30　弘前公園周辺 `[要確認: リンク先ファイル名未定]`
-* 2026-08-30　弘前駅〜弘前公園ルート `[要確認: リンク先ファイル名未定]`
-* 2026-09-03　青森県武道館 `[要確認: リンク先ファイル名未定]`
+* 2026-08-16　[りんご公園](observations/Hirosaki-Apple-Park20260816.md)
+* 2026-08-19　[弘前駅〜鍛冶町周辺](observations/Hirosaki-Station-Kajimachi20260819.md)
+* 2026-08-22　[弘前公園・曳戻し](observations/hirosaki-Park20260822.md)
+* 2026-08-29〜30　[弘前公園周辺](observations/hirosaki-Apple-park-20260829.md)
+* 2026-08-30　[弘前駅〜弘前公園ルート](observations/hirosakiekimae-to-hirosakiPark20260830.md)
+* 2026-09-03　[青森県武道館](observations/aomoriken-budokan20260903.md)
 * 2026-09-04　[弘前公園・追手門／SHIROFES関連](observations/shirofes20260904hirosakipark.md)
 * 2026-09-07　[同地点の再観測／一時的構造物の変化](observations/shirofes20260907hirosakipark.md)
-* 2026-09-07　岩木神社 `[要確認: リンク先ファイル名未定]`
+* 2026-09-07　[岩木神社](observations/iwakisan-jinja20260907.md)
 
 
 ---
