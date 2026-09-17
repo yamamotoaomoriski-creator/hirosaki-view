@@ -55,8 +55,8 @@ Hirosaki Viewでは、単純な「写真集」ではなく、複数の観測パ�
 
 代表的な観測系列への入口。
 
-* 2026-08-16　[りんご公園](observations/弘前アップルパーク20260816.md)
-* 2026-08-19　[弘前駅〜鍛冶町周辺](observations/弘前駅鍛冶町20260819.md)
+* 2026-08-16　[りんご公園](observations/hirosaki-apple-park-20260816.md)
+* 2026-08-19　[弘前駅〜鍛冶町周辺](observations/hirosaki-kajimachi-20260819.md)
 * 2026-08-22　[弘前公園・曳戻し](observations/hirosaki-Park20260822.md)
 * 2026-08-29〜30　[弘前公園周辺](observations/hirosakiPark20260830.md)
 * 2026-08-30　[弘前駅〜弘前公園ルート](observations/hirosakiekimae-to-hirosakiPark20260830.md)
