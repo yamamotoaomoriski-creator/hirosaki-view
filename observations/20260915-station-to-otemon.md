@@ -1,3 +1,11 @@
+---
+id: hv-20260915-station-to-otemon
+date: 2026-09-15
+location: station-to-otemon
+title: 弘前市内定点観測レポート（2026.09.15）
+type: route
+observer: Hirosaki-View
+---
 # 弘前市内定点観測レポート（2026.09.15）
 
 ## 1. 観測概要

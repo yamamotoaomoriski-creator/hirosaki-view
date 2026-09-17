@@ -1,11 +1,10 @@
 ---
-id: SUMM-2026-0829-001
-place: りんご公園
-sub_location: 西部
-observation_type: summary
-observed_at: 2026-08-29T15:30:00+09:00
-observer: HiroSaki-View
-weather: 曇・一部晴
+id: hv-20260829-apple-park
+date: 2026-08-29
+location: apple-park
+title: 観測サマリー：りんご公園西部エリア（2026-08-29）
+type: fixed-point
+observer: Hirosaki-View
 ---
 
 # 観測サマリー：りんご公園西部エリア（2026-08-29）

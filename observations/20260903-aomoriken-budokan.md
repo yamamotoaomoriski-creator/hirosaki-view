@@ -1,11 +1,10 @@
 ---
-id: HP-002
-place: 青森県武道館
-sub_location: 正面プラザ・イベント広場
-observation_type: incidental
-observed_at: 2026-09-03T13:19:00+09:00
-observer: HiroSaki-View
-weather: 曇
+id: hv-20260903-aomoriken-budokan
+date: 2026-09-03
+location: aomoriken-budokan
+title: 青森県武道館 正面プラザ
+type: fixed-point
+observer: Hirosaki-View
 ---
 
 # HP-002 青森県武道館 正面プラザ

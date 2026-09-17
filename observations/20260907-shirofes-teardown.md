@@ -1,10 +1,11 @@
 ---
-ID: HP-SUMMARY-002
-場所: 弘前公園
-観測期間: 2026-09-07T12:02+09:00 - 2026-09-07T12:12+09:00
-観測者: ヒロサキビュー
-天気: 曇 / 晴れ間
-イベント: 城フェス。撤収・解体状況観測
+id: hv-20260907-shirofes-teardown
+date: 2026-09-07
+location: hirosaki-park
+title: 弘前公園・観測ログ総括 (2026.09.07)
+series: shirofes
+type: event-teardown
+observer: Hirosaki-View
 ---
 
 # 弘前公園・観測ログ総括 (2026.09.07)

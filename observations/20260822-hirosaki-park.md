@@ -1,10 +1,12 @@
-実際の観測日は2026-08-23である
 ---
+id: hv-20260822-hirosaki-park
 date: 2026-08-22
-place: 弘前公園
-observer: HiroSaki-View
-weather: 晴
+location: hirosaki-park
+title: 弘前公園 観測記録 (2026-08-22 前半)
+type: fixed-point
+observer: Hirosaki-View
 ---
+実際の観測日は2026-08-23である
 
 # 弘前公園 観測記録 (2026-08-22 前半)
 

@@ -1,3 +1,11 @@
+---
+id: hv-20260819-station-kajimachi
+date: 2026-08-19
+location: station-kajimachi
+title: 弘前都市構造物理的観測ログ（弘前駅前〜鍛冶町エリア）
+type: route
+observer: Hirosaki-View
+---
 # 弘前都市構造物理的観測ログ（弘前駅前〜鍛冶町エリア）
 
 ## 観測概要
