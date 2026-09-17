@@ -55,8 +55,8 @@ Hirosaki Viewでは、単純な「写真集」ではなく、複数の観測パ�
 ## 5. 現在までの主要観測
 代表的な観測系列への入口。
 
-* 2026-08-16　りんご公園 (observations/Hirosaki-Apple-Park20260816.md)
-* 2026-08-19　弘前駅〜鍛冶町周辺 [observations/Hirosaki-Station-Kajimachi20260819.md](observations/Hirosaki-Station-Kajimachi20260819.md)
+* 2026-08-16　りんご公園 [observations/Hirosaki-Apple-Park20260816.md]
+* * 2026-08-19　弘前駅〜鍛冶町周辺 [observations/Hirosaki-Station-Kajimachi20260819.md](observations/Hirosaki-Station-Kajimachi20260819.md)
 * 2026-08-22　弘前公園・曳戻し [observations/hirosaki_park_20260822_event.md](observations/hirosaki_park_20260822_event.md)
 * 2026-08-29〜30　弘前公園周辺 [observations/hirosakiPark20260830.md](observations/hirosakiPark20260830.md)
 * 2026-08-30　弘前駅〜弘前公園ルート [observations/hirosakiekimae-to-hirosakiPark20260830.md](observations/hirosakiekimae-to-hirosakiPark20260830.md)
