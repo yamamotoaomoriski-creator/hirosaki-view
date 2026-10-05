@@ -58,7 +58,10 @@ Hirosaki Viewでは、単純な「写真集」ではなく、複数の観測パ�
 * 2026-08-14　[リンゴ型カーブミラー](observations/20260814-apple-mirror.md)
 * 2026-08-16　[りんご公園](observations/20260816-apple-park.md)
 * 2026-08-19　[弘前駅〜鍛冶町周辺](observations/20260819-station-kajimachi.md)
-* 2026-08-22　[弘前公園・曳戻し](observations/20260822-hirosaki-park.md)
+* 2026-08-22　弘前公園
+  * [前半](observations/20260822-hirosaki-park.md)
+  * [後半・曳戻しイベント編](observations/20260822-hirosaki-park-event.md)
+* 2026-08-29　[りんご公園（西部エリア）](observations/20260829-apple-park.md)
 * 2026-08-29〜30　[弘前公園周辺](observations/20260830-hirosaki-park.md)
 * 2026-08-30　[弘前駅〜弘前公園ルート](observations/20260830-station-to-hirosaki-park.md)
 * 2026-09-03　[青森県武道館](observations/20260903-aomoriken-budokan.md)
