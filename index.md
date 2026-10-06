@@ -69,6 +69,11 @@ Hirosaki Viewでは、単純な「写真集」ではなく、複数の観測パ�
   * 2026-09-04　[弘前公園（追手門付近等）でSHIROFES関連設備の設置および存在を確認](observations/20260904-shirofes-setup.md)
   * 2026-09-07　[同地点で設営物がなくなっている（消失・撤去）ことを確認](observations/20260907-shirofes-teardown.md)
 * 2026-09-07　[岩木神社](observations/20260907-iwakisan-jinja.md)
+* 2026-09-14〜09-22　りんご公園におけるりんごミュージックフェス関連設置物の定点観測
+  * 2026-09-14　[りんご公園「りんごの家」前（通常状態）](observations/20260914-apple-music-fes-normal.md)
+  * 2026-09-17　[りんご公園「りんごの家」前（設営状態）](observations/20260917-apple-music-fes-setup.md)
+  * 2026-09-19　[りんご公園「りんごの家」前（開催・利用状態）](observations/20260919-apple-music-fes-holding.md)
+  * 2026-09-22　[りんご公園「りんごの家」前（撤収後）](observations/20260922-apple-music-fes-teardown.md)
 * 2026-09-15　[弘前市内横断観測ルート（駅前〜追手門）](observations/20260915-station-to-otemon.md)
 
 ---
