@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yamamotoaomoriski-creator.github.io/hirosaki-view/sitemap.xml
