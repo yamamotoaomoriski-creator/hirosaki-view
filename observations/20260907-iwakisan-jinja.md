@@ -2,11 +2,11 @@
 id: hv-20260907-iwakisan-jinja
 date: 2026-09-07
 location: iwakisan-jinja
-title: Field Observation Report: Hirosaki View (HP-Iwakiyama)
+title: 弘前市・岩木山神社境内 現地観測レポート（2026-09-07）
 type: fixed-point
 observer: Hirosaki-View
 ---
-# Field Observation Report: Hirosaki View (HP-Iwakiyama)
+# 弘前市・岩木山神社境内｜2026年9月7日 現地観測 (Field Observation Report)
 
 - **Project**: 空間観測プロジェクト「ヒロサキビュー」
 - **Target Location**: 岩木山神社境内および周辺インフラ
