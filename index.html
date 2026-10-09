@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOUR KINGS Command Room</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">FOUR KINGS Command Room</h1>
+        <p class="subtitle">AI コマンドルーム (最小試作版)</p>
+    </header>
+
+    <main class="container">
+        <section class="card" data-ai="chatgpt">
+            <div class="card-header">
+                <h2>ChatGPT</h2>
+            </div>
+            <div class="card-body">
+                <label for="ai-chatgpt" class="sr-only">ChatGPT 入力欄</label>
+                <textarea id="ai-chatgpt" class="ai-input" placeholder="ChatGPT へのメモやコマンドを入力..."></textarea>
+            </div>
+        </section>
+
+        <section class="card" data-ai="gemini">
+            <div class="card-header">
+                <h2>Gemini</h2>
+            </div>
+            <div class="card-body">
+                <label for="ai-gemini" class="sr-only">Gemini 入力欄</label>
+                <textarea id="ai-gemini" class="ai-input" placeholder="Gemini へのメモやコマンドを入力..."></textarea>
+            </div>
+        </section>
+
+        <section class="card" data-ai="grok">
+            <div class="card-header">
+                <h2>Grok</h2>
+            </div>
+            <div class="card-body">
+                <label for="ai-grok" class="sr-only">Grok 入力欄</label>
+                <textarea id="ai-grok" class="ai-input" placeholder="Grok へのメモやコマンドを入力..."></textarea>
+            </div>
+        </section>
+
+        <section class="card" data-ai="copilot">
+            <div class="card-header">
+                <h2>Copilot</h2>
+            </div>
+            <div class="card-body">
+                <label for="ai-copilot" class="sr-only">Copilot 入力欄</label>
+                <textarea id="ai-copilot" class="ai-input" placeholder="Copilot へのメモやコマンドを入力..."></textarea>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; FOUR KINGS Command Room</p>
+    </footer>
+
+    <script src="./app.js"></script>
+</body>
+</html>
