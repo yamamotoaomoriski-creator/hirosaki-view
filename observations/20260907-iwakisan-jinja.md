@@ -3,10 +3,19 @@ id: hv-20260907-iwakisan-jinja
 date: 2026-09-07
 location: iwakisan-jinja
 title: 弘前市・岩木山神社境内 現地観測レポート（2026-09-07）
+series: iwakisan-jinja
 type: fixed-point
 observer: Hirosaki-View
+direct_observation: true
 ---
+
 # 弘前市・岩木山神社境内｜2026年9月7日 現地観測 (Field Observation Report)
+
+## 観測概要
+- **観測日時**: 2026-09-07
+- **場所**: 弘前市・岩木山神社境内および周辺インフラ
+- **観測対象**: 大鳥居、楼門、保存修理工事インフラ、境内案内板
+
 
 - **Project**: 空間観測プロジェクト「ヒロサキビュー」
 - **Target Location**: 岩木山神社境内および周辺インフラ
@@ -59,3 +68,10 @@ observer: Hirosaki-View
 
 ## 3. Hypothesis & Conclusion
 岩木山神社は、2026年現在、歴史的静態保存の空間ではなく、**「信仰」「観光的表層」「長期保存修理工事（2030年まで）」「現代のユーティリティ（電力・動線管理）」**という複数のレイヤーがリアルタイムで衝突・統合し続ける極めて動的なシステムである。
+
+---
+## 観測間ナビゲーション / 関連リンク
+- **前回の観測記録**: なし（シリーズの初回観測）
+- **次回の観測記録**: なし（現在の最新観測）
+- **観測インデックス**: [観測カタログ (observations/index.md)](index.md)
+- **総合トップ**: [Hirosaki View Top](../index.md)

@@ -3,11 +3,19 @@ id: hv-20260903-aomoriken-budokan
 date: 2026-09-03
 location: aomoriken-budokan
 title: 青森県武道館 正面プラザ 現地観測（2026-09-03）
+series: aomoriken-budokan
 type: fixed-point
 observer: Hirosaki-View
+direct_observation: true
 ---
 
 # 青森県武道館 正面プラザ｜2026年9月3日 現地観測
+
+## 観測概要
+- **観測日時**: 2026-09-03
+- **場所**: 青森県武道館 正面プラザ・周辺道路・交差点
+- **観測対象**: 仮設テント、移動販売車、運動公園プラザ空間
+
 
 ## Observation
 - 敷地構成：広場に複数の仮設白テント（大型・中型）が設置されている
@@ -94,3 +102,10 @@ weather: 曇
 ## Confidence
 - direct_observation: S
 - reason: S
+
+---
+## 観測間ナビゲーション / 関連リンク
+- **前回の観測記録**: なし（シリーズの初回観測）
+- **次回の観測記録**: なし（現在の最新観測）
+- **観測インデックス**: [観測カタログ (observations/index.md)](index.md)
+- **総合トップ**: [Hirosaki View Top](../index.md)

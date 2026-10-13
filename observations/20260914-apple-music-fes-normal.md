@@ -6,6 +6,9 @@ title: 弘前市りんご公園・りんごミュージックフェス関連設�
 series: apple-music-fes
 type: fixed-point
 observer: Hirosaki-View
+direct_observation: true
+prev_observation: 20260829-apple-park.md
+next_observation: 20260917-apple-music-fes-setup.md
 ---
 
 # 弘前市りんご公園・りんごミュージックフェス関連設置物観測（通常状態：2026-09-14）
@@ -31,3 +34,10 @@ observer: Hirosaki-View
 ## Confidence
 - direct_observation: S
 - reason: S
+
+---
+## 観測間ナビゲーション / 関連リンク
+- **前回の観測記録**: [観測サマリー：りんご公園西部エリア（2026-08-29）](20260829-apple-park.md)
+- **次回の観測記録**: [弘前市りんご公園・りんごミュージックフェス関連設置物観測（設営状態：2026-09-17）](20260917-apple-music-fes-setup.md)
+- **観測インデックス**: [観測カタログ (observations/index.md)](index.md)
+- **総合トップ**: [Hirosaki View Top](../index.md)

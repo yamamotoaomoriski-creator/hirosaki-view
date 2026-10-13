@@ -3,9 +3,18 @@ id: hv-20260822-hirosaki-park
 date: 2026-08-22
 location: hirosaki-park
 title: 弘前公園 観測記録 (2026-08-22 前半)
+series: hirosaki-park-2026
 type: fixed-point
 observer: Hirosaki-View
+direct_observation: true
+next_observation: 20260822-hirosaki-park-event.md
 ---
+
+## 観測概要
+- **観測日時**: 2026-08-22
+- **場所**: 弘前公園（追手門周辺〜テニスコート付近）
+- **観測対象**: 公園内設備・販売台・人力車・自転車整列エリア
+
 実際の観測日は2026-08-23である
 
 # 弘前公園 観測記録 (2026-08-22 前半)
@@ -109,3 +118,10 @@ observer: Hirosaki-View
 - **Human observation**: イベント時の特設会場や物販スペースとは異なり、明確な目的や案内看板が伴わないまま、空間の一部が「物理的な境界」によって切り取られている。管理上の養生なのか、あるいは今後のイベントに向けた「空白の予備区画」なのか、意味がコード化されていない異物的なゾーニング。
 - **Evidence**: 2301.jpg
 - **Confidence**: direct_observation: S, reason: S
+
+---
+## 観測間ナビゲーション / 関連リンク
+- **前回の観測記録**: なし（シリーズの初回観測）
+- **次回の観測記録**: [弘前公園 観測記録 (2026-08-22 後半 - 曳戻しイベント編)](20260822-hirosaki-park-event.md)
+- **観測インデックス**: [観測カタログ (observations/index.md)](index.md)
+- **総合トップ**: [Hirosaki View Top](../index.md)

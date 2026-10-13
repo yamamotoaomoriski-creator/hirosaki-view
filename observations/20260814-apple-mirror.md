@@ -3,11 +3,18 @@ id: hv-20260814-apple-mirror
 date: 2026-08-14
 location: apple-mirror
 title: 弘前市内（バス停付近）・リンゴ型カーブミラー 現地観測（2026-08-14）
+series: apple-mirror
 type: fixed-point
 observer: Hirosaki-View
+direct_observation: true
+next_observation: 20260816-apple-park.md
 ---
 
 # 弘前市内（バス停付近）・リンゴ型カーブミラー｜2026年8月14日 現地観測
+
+## 観測概要
+- **観測対象**: リンゴ型カーブミラー
+
 
 観測日時：2026-08-14 19:00
 場所：弘前市内（バス停付近）
@@ -30,3 +37,10 @@ observer: Hirosaki-View
 
 ## 履歴
 - 2026-08-14 初回記録
+
+---
+## 観測間ナビゲーション / 関連リンク
+- **前回の観測記録**: なし（シリーズの初回観測）
+- **次回の観測記録**: [弘前市りんご公園 観測ログ一括ビルド（2026-08-16）](20260816-apple-park.md)
+- **観測インデックス**: [観測カタログ (observations/index.md)](index.md)
+- **総合トップ**: [Hirosaki View Top](../index.md)

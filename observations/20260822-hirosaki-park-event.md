@@ -3,9 +3,19 @@ id: hv-20260822-hirosaki-park-event
 date: 2026-08-22
 location: hirosaki-park
 title: 弘前公園 観測記録 (2026-08-22 後半 - 曳戻しイベント編)
+series: hirosaki-park-2026
 type: fixed-point
 observer: Hirosaki-View
+direct_observation: true
+prev_observation: 20260822-hirosaki-park.md
+next_observation: 20260830-hirosaki-park.md
 ---
+
+## 観測概要
+- **観測日時**: 2026-08-22
+- **場所**: 弘前公園（下乗橋〜本丸〜天守周辺）
+- **観測対象**: 曳戻しイベント特設テント、屋台、工事看板、展望デッキ
+
 実際の観測日は2026-08-23である
 
 # 弘前公園 観測記録 (2026-08-22 後半 - 曳戻しイベント編)
@@ -188,3 +198,10 @@ observer: Hirosaki-View
 - **Human observation**: 歴史的遺構の移動プロセスを安全かつ特等席から見物できるように、仮設の展望デッキという「観覧インフラ」が精緻に構築されている。群衆が同じ方向を向き、文化財の非日常的な移動スペクタクルを共有する祝祭的な空間デザインが完成している。
 - **Evidence**: 2293.jpg
 - **Confidence**: direct_observation: S, reason: S
+
+---
+## 観測間ナビゲーション / 関連リンク
+- **前回の観測記録**: [弘前公園 観測記録 (2026-08-22 前半)](20260822-hirosaki-park.md)
+- **次回の観測記録**: [弘前公園フィールドワーク観測録（2026-08-30）](20260830-hirosaki-park.md)
+- **観測インデックス**: [観測カタログ (observations/index.md)](index.md)
+- **総合トップ**: [Hirosaki View Top](../index.md)
