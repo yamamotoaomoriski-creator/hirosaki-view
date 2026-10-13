@@ -3,10 +3,20 @@ id: hv-20260816-apple-park
 date: 2026-08-16
 location: apple-park
 title: 弘前市りんご公園 観測ログ一括ビルド（2026-08-16）
+series: apple-park-2026
 type: fixed-point
 observer: Hirosaki-View
+direct_observation: true
+prev_observation: 20260814-apple-mirror.md
+next_observation: 20260829-apple-park.md
 ---
+
 # 弘前市りんご公園 観測ログ一括ビルド｜2026年8月16日 現地観測
+
+## 観測概要
+- **観測日時**: 2026-08-16
+- **観測対象**: 園内施設・アンブレラスカイ・展示物等
+
 **Observer**: HiroSaki-View
 **Date**: 2026-08-16
 
@@ -126,3 +136,10 @@ observer: Hirosaki-View
 
 ## General Info (FACT)
 - 販売品目: 約1200点 (一般情報ソースより精査)
+
+---
+## 観測間ナビゲーション / 関連リンク
+- **前回の観測記録**: [弘前市内（バス停付近）・リンゴ型カーブミラー 現地観測（2026-08-14）](20260814-apple-mirror.md)
+- **次回の観測記録**: [観測サマリー：りんご公園西部エリア（2026-08-29）](20260829-apple-park.md)
+- **観測インデックス**: [観測カタログ (observations/index.md)](index.md)
+- **総合トップ**: [Hirosaki View Top](../index.md)

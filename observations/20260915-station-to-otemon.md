@@ -3,10 +3,18 @@ id: hv-20260915-station-to-otemon
 date: 2026-09-15
 location: station-to-otemon
 title: 弘前市内定点観測レポート（2026.09.15）
+series: urban-routes
 type: route
 observer: Hirosaki-View
+direct_observation: true
+prev_observation: 20260830-station-to-hirosaki-park.md
 ---
+
 # 弘前市内定点観測レポート（2026.09.15）
+
+## 観測概要
+- **観測対象**: モニュメント、案内看板、都市空間のアノマリー、定点観測ログ
+
 
 ## 1. 観測概要
 - **観測日時**: 2026.09.15 11:39 - 12:04
@@ -317,3 +325,10 @@ observer: HiroSaki-View
 
 ## 3. 
 HP-002〜027の観測ログを一次記録として保存
+
+---
+## 観測間ナビゲーション / 関連リンク
+- **前回の観測記録**: [弘前フィールドワーク観測録：弘前駅〜弘前公園（別ルート：2026-08-30）](20260830-station-to-hirosaki-park.md)
+- **次回の観測記録**: なし（現在の最新観測）
+- **観測インデックス**: [観測カタログ (observations/index.md)](index.md)
+- **総合トップ**: [Hirosaki View Top](../index.md)

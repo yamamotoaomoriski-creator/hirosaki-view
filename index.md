@@ -10,6 +10,12 @@ description: "弘前市の物理的な現実を人間が現地で直接観測し
 
 ---
 
+## 🤖 AI・エージェント向け案内
+* **AI・LLM向け概要ファイル**: [`llms.txt`](llms.txt) — Hirosaki Viewの目的、データ構造、参照時の注意事項・引用ガイド
+* **観測データ総合インデックス**: [`observations/index.md`](observations/index.md) — 時系列・シリーズ別・地点別全観測ログ一覧
+
+---
+
 ## 1. Hirosaki Viewとは
 Hirosaki View は、弘前市の物理的な現実を、人間が現地で直接観測し、一次情報として記録・公開する都市観測アーカイブ。主要な観測記録は `observations/` ディレクトリ配下に蓄積される（Source of Truth）。
 
@@ -42,7 +48,7 @@ Hirosaki View は、弘前市の物理的な現実を、人間が現地で直接
 * **駅前〜中心市街地ルート**: 弘前駅から駅土手プロムナード、上土手町、土手町、弘前公園・追手門に至る都市空間の横断観測。
 * **ヒロロ・周辺商業エリア**: 遊歩道、かくみ小路、道路・歩行空間、商業・都市景観の変化など。
 * **りんご公園**: 公園内の施設・植栽・設備など、物理的状態の記録。
-* **岩木神社**: 将来的な整備等による変化を見据えた「変化前」の記録。
+* **岩木山神社**: 将来的な整備等による変化を見据えた「変化前」の記録。
 * **その他の都市施設・地点**: 青森県武道館、道路・公共空間、工事・建設現場、イベント関連設備、仮設構造物など。
 
 ---
@@ -57,11 +63,12 @@ Hirosaki Viewでは、単純な「写真集」ではなく、複数の観測パ�
 * **時系列観測**: 同じ対象について複数回の観測を蓄積。
 
 ---
-## 5. 現在までの主要観測
+
+## 5. 現在までの主要観測（全記録一覧は [観測インデックス](observations/index.md) を参照）
 
 `index.md → observations/ → 個別観測ページ` という発見経路を提供する主要な観測記録への入口。
 
-すべての観測記録は `observations/` ディレクトリ内に保存されている。
+すべての観測記録は `observations/` ディレクトリ内に保存されている。全17記録の時系列・シリーズ別整理は **[観測データ総合インデックス (observations/index.md)](observations/index.md)** を参照。
 
 * 2026-08-14　[リンゴ型カーブミラー](observations/20260814-apple-mirror.md)
 * 2026-08-16　[りんご公園](observations/20260816-apple-park.md)
@@ -70,14 +77,14 @@ Hirosaki Viewでは、単純な「写真集」ではなく、複数の観測パ�
   * [前半](observations/20260822-hirosaki-park.md)
   * [後半・曳戻しイベント編](observations/20260822-hirosaki-park-event.md)
 * 2026-08-29　[りんご公園（西部エリア）](observations/20260829-apple-park.md)
-* 2026-08-29〜30　[弘前公園周辺](observations/20260830-hirosaki-park.md)
+* 2026-08-30　[弘前公園周辺](observations/20260830-hirosaki-park.md)
 * 2026-08-30　[弘前駅〜弘前公園ルート](observations/20260830-station-to-hirosaki-park.md)
 * 2026-09-03　[青森県武道館](observations/20260903-aomoriken-budokan.md)
-* 2026-09-04 / 09-07　弘前公園におけるSHIROFES関連設備の時差現地観測
+* 2026-09-04 / 09-07　弘前公園におけるSHIROFES関連設備の時差現地観測 (`shirofes` シリーズ)
   * 2026-09-04　[弘前公園（追手門付近等）でSHIROFES関連設備の設置および存在を確認](observations/20260904-shirofes-setup.md)
   * 2026-09-07　[同地点で設営物がなくなっている（消失・撤去）ことを確認](observations/20260907-shirofes-teardown.md)
-* 2026-09-07　[岩木神社](observations/20260907-iwakisan-jinja.md)
-* 2026-09-14〜09-22　りんご公園におけるりんごミュージックフェス関連設置物の定点観測
+* 2026-09-07　[岩木山神社](observations/20260907-iwakisan-jinja.md)
+* 2026-09-14〜09-22　りんご公園におけるりんごミュージックフェス関連設置物の定点観測 (`apple-music-fes` シリーズ)
   * 2026-09-14　[りんご公園「りんごの家」前（通常状態）](observations/20260914-apple-music-fes-normal.md)
   * 2026-09-17　[りんご公園「りんごの家」前（設営状態）](observations/20260917-apple-music-fes-setup.md)
   * 2026-09-19　[りんご公園「りんごの家」前（開催・利用状態）](observations/20260919-apple-music-fes-holding.md)
@@ -153,6 +160,8 @@ AIが構造化された一次観測データをどのように参照し、解釈
 ---
 
 ## 11. 関連ドキュメント
+* [llms.txt](llms.txt)
+* [observations/index.md](observations/index.md)
 * [docs/purpose.md](docs/purpose.md)
 * [observations/](observations/)
 * [docs/](docs/)
@@ -165,5 +174,30 @@ AIが構造化された一次観測データをどのように参照し、解釈
 
 ---
 
-## 12. このINDEXについて
+## 12. 構造化データ (Schema.org JSON-LD)
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DataCatalog",
+  "name": "Hirosaki View Urban Observation Archive",
+  "description": "弘前市の物理的現実を人間が現地で直接観測し、一次情報として記録・公開する都市観測アーカイブ。",
+  "url": "https://yamamotoaomoriski-creator.github.io/hirosaki-view/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Hirosaki View Project"
+  },
+  "dataset": [
+    {
+      "@type": "Dataset",
+      "name": "Hirosaki View Observation Logs",
+      "url": "https://yamamotoaomoriski-creator.github.io/hirosaki-view/observations/index.html"
+    }
+  ]
+}
+</script>
+
+---
+
+## 13. このINDEXについて
 このINDEXは、Hirosaki Viewの現在の観測状況・方法・実験構造を把握するための入口である。個々の観測内容については、それぞれの観測記録を参照する。

@@ -3,10 +3,19 @@ id: hv-20260830-hirosaki-park
 date: 2026-08-30
 location: hirosaki-park
 title: 弘前公園フィールドワーク観測録（2026-08-30）
+series: hirosaki-park-2026
 type: fixed-point
 observer: Hirosaki-View
+direct_observation: true
+prev_observation: 20260822-hirosaki-park-event.md
+next_observation: 20260904-shirofes-setup.md
 ---
+
 # 弘前公園フィールドワーク観測録｜2026年8月30日 現地観測
+
+## 観測概要
+- **観測対象**: 天守改修・石垣普請関連インフラ、案内看板、状態変化
+
 
 観測日時：2026年08月30日 13:00〜13:24  
 場所：弘前公園内（追手門〜本丸周辺）  
@@ -80,3 +89,10 @@ observer: Hirosaki-View
 
 ## 結び
 今回の弘前公園内の観測では、イベント設営物の撤去による空間のリセットから、天守非公開・改修工事に伴う厳格な料金・動線管理、そしてポップカルチャーやデジタルサイネージ、詳細な解説パネルといった多様なレイヤーが交錯する都市・歴史的空間の現在地を記録した。
+
+---
+## 観測間ナビゲーション / 関連リンク
+- **前回の観測記録**: [弘前公園 観測記録 (2026-08-22 後半 - 曳戻しイベント編)](20260822-hirosaki-park-event.md)
+- **次回の観測記録**: [弘前公園・観測ログ総括（2026.09.04）](20260904-shirofes-setup.md)
+- **観測インデックス**: [観測カタログ (observations/index.md)](index.md)
+- **総合トップ**: [Hirosaki View Top](../index.md)

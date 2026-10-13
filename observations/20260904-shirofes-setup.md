@@ -6,9 +6,17 @@ title: 弘前公園・観測ログ総括（2026.09.04）
 series: shirofes
 type: event-setup
 observer: Hirosaki-View
+direct_observation: true
+prev_observation: 20260830-hirosaki-park.md
+next_observation: 20260907-shirofes-teardown.md
 ---
 
 # 弘前公園・観測ログ総括（2026.09.04）
+
+## 観測概要
+- **観測日時**: 2026-09-04
+- **場所**: 弘前公園（追手門〜原っぱ〜市民会館付近）
+
 
 ## 観測データ一覧
 
@@ -24,3 +32,10 @@ observer: Hirosaki-View
 
 - **日常空間のハッキング**: 弘前公園の歴史的景観および自然環境が、イベント「SHIROFES.」のための仮設インフラ（トラス、テント、エア遊具）によってモジュール化されている。
 - **動線の再定義**: 敷鉄板の敷設やバリケード、電源車の配置により、通常の公園利用者の動線が遮断・誘導され、フェスティバルの裏側と表側が幾何学的にレイアウトされている。
+
+---
+## 観測間ナビゲーション / 関連リンク
+- **前回の観測記録**: [弘前公園フィールドワーク観測録（2026-08-30）](20260830-hirosaki-park.md)
+- **次回の観測記録**: [弘前公園・観測ログ総括 (2026.09.07)](20260907-shirofes-teardown.md)
+- **観測インデックス**: [観測カタログ (observations/index.md)](index.md)
+- **総合トップ**: [Hirosaki View Top](../index.md)

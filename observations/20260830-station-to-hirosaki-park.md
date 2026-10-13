@@ -3,10 +3,19 @@ id: hv-20260830-station-to-hirosaki-park
 date: 2026-08-30
 location: station-to-hirosaki-park
 title: 弘前フィールドワーク観測録：弘前駅〜弘前公園（別ルート：2026-08-30）
+series: urban-routes
 type: route
 observer: Hirosaki-View
+direct_observation: true
+prev_observation: 20260819-station-kajimachi.md
+next_observation: 20260915-station-to-otemon.md
 ---
+
 # 弘前フィールドワーク観測録：弘前駅〜弘前公園（別ルート）｜2026年8月30日 現地観測
+
+## 観測概要
+- **観測対象**: 都市インフラ、裏動線、建築的テクスチャ
+
 
 観測日時：2026年08月30日（一部08月26日含む）  
 天候：曇  
@@ -92,3 +101,10 @@ observer: Hirosaki-View
 
 ## 結び
 今回の観測では、生活インフラの休日における静止状態から、都市の隙間に隠された狭隘路、そして近代化遺産に至るまで、多様な都市レイヤーを記録した。次回のフィールドワークではさらなる別ルートの検証を行う。
+
+---
+## 観測間ナビゲーション / 関連リンク
+- **前回の観測記録**: [弘前都市構造物理的観測ログ（弘前駅前〜鍛冶町エリア：2026-08-19）](20260819-station-kajimachi.md)
+- **次回の観測記録**: [弘前市内定点観測レポート（2026.09.15）](20260915-station-to-otemon.md)
+- **観測インデックス**: [観測カタログ (observations/index.md)](index.md)
+- **総合トップ**: [Hirosaki View Top](../index.md)
