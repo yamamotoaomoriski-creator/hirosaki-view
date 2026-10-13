@@ -1,3 +1,9 @@
+---
+layout: default
+title: "プロジェクトの目的と思想 — Hirosaki View"
+description: "Hirosaki Viewの目的と思想、および観測基盤に関する説明ドキュメント。"
+---
+
 # Hirosaki View（ヒロサキビュー）：プロジェクトの目的と思想
 
 ## 1. プロジェクトの概要
