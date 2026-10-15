@@ -38,6 +38,7 @@ description: "弘前市の現地直接観測データ（observations/）の時�
 - **2026-08-22 (前半)**: [弘前公園 観測記録 (2026-08-22 前半)](20260822-hirosaki-park.md) — 追手門前販売台・傘立て・人力車・駐輪エリア
 - **2026-08-22 (後半)**: [弘前公園 観測記録 (2026-08-22 後半 - 曳戻しイベント編)](20260822-hirosaki-park-event.md) — 屋台群・特設テント・曳戻し工事看板・展望デッキ
 - **2026-08-30**: [弘前公園フィールドワーク観測録 (2026-08-30)](20260830-hirosaki-park.md) — イベント撤収後のリセット空間と改修案内インフラ
+- **2026-10-15**: [弘前公園内 現地観測記録 (2026-10-15)](20261015-hirosaki-park.md) — 追手門前・園路・石垣普請解説パネル・中堀発着場・東内門周辺
 
 ---
 
@@ -88,13 +89,14 @@ description: "弘前市の現地直接観測データ（observations/）の時�
 | 2026-09-17 | `hv-20260917-apple-music-fes-setup` | りんご音楽フェス (設営状態) | りんご公園 | 設営 | [20260917-apple-music-fes-setup.md](20260917-apple-music-fes-setup.md) |
 | 2026-09-19 | `hv-20260919-apple-music-fes-holding` | りんご音楽フェス (開催状態) | りんご公園 | 開催 | [20260919-apple-music-fes-holding.md](20260919-apple-music-fes-holding.md) |
 | 2026-09-22 | `hv-20260922-apple-music-fes-teardown` | りんご音楽フェス (撤収後) | りんご公園 | 撤収 | [20260922-apple-music-fes-teardown.md](20260922-apple-music-fes-teardown.md) |
+| 2026-10-15 | `hv-20261015-hirosaki-park` | 弘前公園内 現地観測記録 | 弘前公園 | 固定点 | [20261015-hirosaki-park.md](20261015-hirosaki-park.md) |
 
 ---
 
 ## 3. 地点（エリア）別インデックス
 
 * **弘前公園エリア (`hirosaki-park`)**:
-  * [2026-08-22 前半](20260822-hirosaki-park.md), [2026-08-22 後半](20260822-hirosaki-park-event.md), [2026-08-30](20260830-hirosaki-park.md), [2026-09-04 設営](20260904-shirofes-setup.md), [2026-09-07 撤収](20260907-shirofes-teardown.md)
+  * [2026-08-22 前半](20260822-hirosaki-park.md), [2026-08-22 後半](20260822-hirosaki-park-event.md), [2026-08-30](20260830-hirosaki-park.md), [2026-09-04 設営](20260904-shirofes-setup.md), [2026-09-07 撤収](20260907-shirofes-teardown.md), [2026-10-15](20261015-hirosaki-park.md)
 * **弘前市りんご公園エリア (`apple-park`)**:
   * [2026-08-16](20260816-apple-park.md), [2026-08-29](20260829-apple-park.md), [2026-09-14 通常](20260914-apple-music-fes-normal.md), [2026-09-17 設営](20260917-apple-music-fes-setup.md), [2026-09-19 開催](20260919-apple-music-fes-holding.md), [2026-09-22 撤収](20260922-apple-music-fes-teardown.md)
 * **弘前駅〜中心市街地ルート (`urban-routes`)**:
@@ -128,7 +130,7 @@ description: "弘前市の現地直接観測データ（observations/）の時�
     "@type": "Place",
     "name": "Hirosaki City, Aomori Prefecture, Japan"
   },
-  "temporalCoverage": "2026-08-14/2026-09-22"
+  "temporalCoverage": "2026-08-14/2026-10-15"
 }
 </script>
 

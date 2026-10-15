@@ -38,6 +38,7 @@
 - 2026-08-22 前半 [追手門〜広場](https://yamamotoaomoriski-creator.github.io/hirosaki-view/observations/20260822-hirosaki-park.html)
 - 2026-08-22 後半 [曳戻しイベント編](https://yamamotoaomoriski-creator.github.io/hirosaki-view/observations/20260822-hirosaki-park-event.html)
 - 2026-08-30 [改修インフラ・管理空間](https://yamamotoaomoriski-creator.github.io/hirosaki-view/observations/20260830-hirosaki-park.html)
+- 2026-10-15 [現地観測記録（追手門前〜東内門周辺）](https://yamamotoaomoriski-creator.github.io/hirosaki-view/observations/20261015-hirosaki-park.html)
 
 ### 4. 都市横断ルート観測（`urban-routes`）
 弘前駅から中心市街地・弘前公園に至る都市動線（表通り・裏通り）の歩行空間および構造物観測。
