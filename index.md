@@ -90,6 +90,7 @@ Hirosaki Viewでは、単純な「写真集」ではなく、複数の観測パ�
   * 2026-09-19　[りんご公園「りんごの家」前（開催・利用状態）](observations/20260919-apple-music-fes-holding.md)
   * 2026-09-22　[りんご公園「りんごの家」前（撤収後）](observations/20260922-apple-music-fes-teardown.md)
 * 2026-09-15　[弘前市内横断観測ルート（駅前〜追手門）](observations/20260915-station-to-otemon.md)
+* 2026-10-15　[弘前城植物園内 現地観測記録](observations/20261015-botanical-garden.md)
 
 ---
 
