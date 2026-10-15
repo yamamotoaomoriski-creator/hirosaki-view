@@ -13,6 +13,7 @@ description: "弘前市の物理的な現実を人間が現地で直接観測し
 ## 🤖 AI・エージェント向け案内
 * **AI・LLM向け概要ファイル**: [`llms.txt`](llms.txt) — Hirosaki Viewの目的、データ構造、参照時の注意事項・引用ガイド
 * **観測データ総合インデックス**: [`observations/index.md`](observations/index.md) — 時系列・シリーズ別・地点別全観測ログ一覧
+* **AI向けショーウィンドウ (RSS/Atom)**: [`feed.xml`](feed.xml) / [`feed.atom`](feed.atom) — Gemini・Copilot等のAIが全観測本文・メタデータ・Source of Truthを一括取得できるデータフィード
 
 ---
 

@@ -214,7 +214,63 @@ jobs:
                       )
 
           # --------------------------------------------------
-          # 5. 結果
+          # 5. フィード同期検査 (RSS/Atom Feed Sync Check)
+          # --------------------------------------------------
+          print("\n[5] FEED SYNC CHECK")
+
+          feed_xml_path = ROOT / "feed.xml"
+          feed_atom_path = ROOT / "feed.atom"
+
+          if not feed_xml_path.exists():
+              errors += 1
+              print("✗ MISSING FILE: feed.xml does not exist in root directory.")
+          else:
+              print("  ✓ feed.xml found")
+
+          if not feed_atom_path.exists():
+              errors += 1
+              print("✗ MISSING FILE: feed.atom does not exist in root directory.")
+          else:
+              print("  ✓ feed.atom found")
+
+          # Import and run feed generator logic to verify exact content match
+          sys.path.insert(0, str(ROOT / "scripts"))
+          try:
+              import generate_feed
+              obs_files = [
+                  str(p) for p in sorted((ROOT / "observations").glob("*.md"))
+                  if p.name != "index.md"
+              ]
+              items = [generate_feed.parse_md_file(f) for f in obs_files]
+              expected_rss = generate_feed.build_rss_feed(items)
+              expected_atom = generate_feed.build_atom_feed(items)
+
+              if feed_xml_path.exists():
+                  actual_rss = feed_xml_path.read_text(encoding="utf-8")
+                  # Ignore lastBuildDate differences in comparison
+                  clean_expected_rss = re.sub(r'<lastBuildDate>.*?</lastBuildDate>', '', expected_rss)
+                  clean_actual_rss = re.sub(r'<lastBuildDate>.*?</lastBuildDate>', '', actual_rss)
+                  if clean_expected_rss != clean_actual_rss:
+                      errors += 1
+                      print("✗ FEED OUT OF SYNC: feed.xml is not in sync with observations/*.md")
+                  else:
+                      print("  ✓ feed.xml is in exact sync with observations")
+
+              if feed_atom_path.exists():
+                  actual_atom = feed_atom_path.read_text(encoding="utf-8")
+                  clean_expected_atom = re.sub(r'<updated>.*?</updated>', '', expected_atom)
+                  clean_actual_atom = re.sub(r'<updated>.*?</updated>', '', actual_atom)
+                  if clean_expected_atom != clean_actual_atom:
+                      errors += 1
+                      print("✗ FEED OUT OF SYNC: feed.atom is not in sync with observations/*.md")
+                  else:
+                      print("  ✓ feed.atom is in exact sync with observations")
+          except Exception as e:
+              errors += 1
+              print(f"✗ FEED GENERATOR ERROR: {e}")
+
+          # --------------------------------------------------
+          # 6. 結果
           # --------------------------------------------------
           print("\n" + "=" * 60)
           print("AUDIT RESULT")
