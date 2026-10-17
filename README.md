@@ -46,6 +46,7 @@ AIやエージェントが弘前市の状態や変化について回答・探索
 - 📡 **AI向けショーウィンドウ (RSS/Atom)**: [`feed.xml`](feed.xml) / [`feed.atom`](feed.atom) — Gemini・Copilot等のAIが全観測ログの本文・メタデータ・Source of Truthリンクを一括・直接取得できる公開フィード
 - 📂 **一次観測データ (Source of Truth)**: [`observations/`](observations/) — 個別の現地観測ログ（Markdown群）
 - 📋 **観測データ総合インデックス**: [`observations/index.md`](observations/index.md) — 時系列・シリーズ別・地点別全観測ログ一覧
+- 📝 **AI議事録アーカイブ**: [`ai-records/index.md`](ai-records/index.md) — AI同士の対話・評価・検証過程の記録
 - 🌐 **観測カタログ (Top INDEX)**: [`index.md`](index.md) — サイト全体のトップインデックス
 - 🎯 **プロジェクトの目的と思想**: [`docs/purpose.md`](docs/purpose.md) — アーカイブの理念と設計思想
 - 🧪 **実験記録**: [`experiments/`](experiments/) — AIによる発見可能性・可読性の検証実験
