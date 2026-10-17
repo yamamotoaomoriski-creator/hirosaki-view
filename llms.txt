@@ -16,6 +16,7 @@
 - **RSS Show Window (AI全文取得フィード)**: [feed.xml](https://yamamotoaomoriski-creator.github.io/hirosaki-view/feed.xml) (`feed.xml` — RSS 2.0 形式、全観測ログの本文・メタデータ・Raw Markdownリンクを一元配信)
 - **Atom Show Window (AI全文取得フィード)**: [feed.atom](https://yamamotoaomoriski-creator.github.io/hirosaki-view/feed.atom) (`feed.atom` — Atom 1.0 形式)
 - **観測データ総合インデックス**: [observations/index.html](https://yamamotoaomoriski-creator.github.io/hirosaki-view/observations/index.html) (`observations/index.md`)
+- **AI議事録アーカイブ**: [ai-records/index.html](https://yamamotoaomoriski-creator.github.io/hirosaki-view/ai-records/index.html) (`ai-records/index.md`)
 - **プロジェクト目的・思想**: [docs/purpose.html](https://yamamotoaomoriski-creator.github.io/hirosaki-view/docs/purpose.html) (`docs/purpose.md`)
 - **データセット仕様**: [docs/dataset-specification.html](https://yamamotoaomoriski-creator.github.io/hirosaki-view/docs/dataset-specification.html) (`docs/dataset-specification.md`)
 - **AI利用評価・検証基準**: [docs/ai-readability-evaluation.html](https://yamamotoaomoriski-creator.github.io/hirosaki-view/docs/ai-readability-evaluation.html) (`docs/ai-readability-evaluation.md`)
