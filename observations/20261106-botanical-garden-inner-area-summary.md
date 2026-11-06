@@ -1,10 +1,3 @@
-以下の本文を、弘前ビューの既存登録ルールに従ってMarkdownファイルとして登録してください。
-
-・本文は原文を維持すること
-・観測事実、空間的変容、Human observation、Evidence、関連リンクを削除・要約しないこと
-・画像ファイル名と観測IDを変更しないこと
-・既存ファイルを上書きしないこと
-・登録先は observations/20261106-botanical-garden-inner-area-summary.md
 ---
 id: hv-20261106-botanical-garden-inner-area-summary
 date: 2026-11-06
