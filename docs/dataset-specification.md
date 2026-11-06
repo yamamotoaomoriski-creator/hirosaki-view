@@ -25,13 +25,14 @@ Hirosaki View は、弘前市の物理的空間・都市構造・イベントに
 | フィールド | 型 | 必須 | 説明 | 記述例 |
 | :--- | :--- | :--- | :--- | :--- |
 | `id` | String | ✓ | 観測記録のユニーク識別子 (`hv-YYYYMMDD-slug`) | `hv-20260917-apple-music-fes-setup` |
-| `date` | Date | ✓ | 観測年月日 (ISO 8601: `YYYY-MM-DD`) | `2026-09-17` |
+| `date` | Date | ✓ | 観測年月日または統合記録の基準日 (ISO 8601: `YYYY-MM-DD`) | `2026-09-17` |
+| `period` | String | - | 観測期間（複数日・複数時点を統合した記録で使用） | `2026-10-30T08:21:00+09:00 - 2026-11-05T08:22:00+09:00` |
 | `location` | String | ✓ | 観測地点識別子 | `apple-park`, `hirosaki-park`, `station-to-otemon` |
 | `title` | String | ✓ | 観測記録の正式名称 | `弘前市りんご公園・設置物観測（設営状態）` |
-| `series` | String | - | 関連する時系列観測シリーズ識別子 | `apple-music-fes`, `shirofes`, `urban-routes` |
-| `type` | String | ✓ | 観測種別 (`fixed-point`, `route`, `event-setup`, `event-holding`, `event-teardown`) | `event-setup` |
+| `series` | String | - | 関連する時系列観測シリーズ識別子 | `apple-music-fes`, `shirofes`, `urban-routes`, `apple-park-2026` |
+| `type` | String | ✓ | 観測種別 (`fixed-point`, `route`, `event-setup`, `event-holding`, `event-teardown`, `event-time-series-summary`) | `event-setup` |
 | `observer` | String | ✓ | 観測実施者名 | `Hirosaki-View` |
-| `direct_observation` | Boolean | ✓ | 現地直接観測であるかフラグ | `true` |
+| `direct_observation` | Boolean | ✓ | 現地直接観測であるかフラグ（統合記録等の二次整理は `false`） | `true` |
 | `prev_observation` | String | - | シリーズ内の1つ前の観測記録ファイル名 | `20260914-apple-music-fes-normal.md` |
 | `next_observation` | String | - | シリーズ内の1つ後の観測記録ファイル名 | `20260919-apple-music-fes-holding.md` |
 
@@ -44,6 +45,7 @@ Hirosaki View は、弘前市の物理的空間・都市構造・イベントに
 3. **`event-setup` (設営観測)**: イベント開催前の資材搬入・仮設インフラ構築状態の記録。
 4. **`event-holding` (開催・利用観測)**: イベント本番中の仮設インフラフル稼働状態の記録。
 5. **`event-teardown` (撤収・原状回復観測)**: イベント終了後の解体・資材搬出および空間復旧状態の記録。
+6. **`event-time-series-summary` (イベント時系列統合記録)**: 複数時点の観測を統合し、イベント前（設営）・開催中・開催終了後・撤去完了などの状態変化や相転移を整理する記録。個別の直接観測記録（一次データ）と、それらを時系列比較・構造化した統合記録の役割を明確に区別し、統合記録では `direct_observation: false` および `period` フィールドを使用します。
 
 ---
 
