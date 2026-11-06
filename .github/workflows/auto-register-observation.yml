@@ -27,7 +27,7 @@ jobs:
                 issue_number: issueNumber,
                 body: `❌ 登録失敗: タイトルには「directory/filename.md」形式の有効なMarkdownパスを指定してください。（入力値: ${title}）`
               });
-              setFailed('Invalid file path format.');
+              core.setFailed('Invalid file path format.');
               return;
             }
 
@@ -45,14 +45,47 @@ jobs:
               }
 
               if (existingFileSha) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issueNumber,
+                  body: `⚠️ 登録中断: '${title}' は既に存在します。上書きを防ぐため処理を中断しました。`
+              });
+                core.setFailed('File already exists. Overwrite prevented.');
+              return;
+            }
+
+              // 観測ファイルの場合の事前バリデーション検査
+              if (title.startsWith('observations/')) {
+                const validationErrors = [];
+                if (!body.startsWith('---')) {
+                  validationErrors.push("Front Matterがファイル冒頭から始まっていません（'---' が先頭にありません）。指示文等の混入がないか確認してください。");
+                } else {
+                  const parts = body.split('---');
+                  if (parts.length < 3) {
+                    validationErrors.push("Front Matterが '---' で正しく閉じられていません。");
+                  } else {
+                    const fm = parts[1];
+                    const requiredKeys = ['id:', 'date:', 'location:', 'title:', 'type:', 'observer:', 'direct_observation:'];
+                    for (const req of requiredKeys) {
+                      if (!fm.includes(req)) {
+                        validationErrors.push(`Front Matterに必須項目 '${req.replace(':', '')}' が見つかりません。`);
+                      }
+                    }
+                  }
+              }
+
+                if (validationErrors.length > 0) {
+                  const errorMsg = validationErrors.map(e => `- ${e}`).join('\\n');
                 await github.rest.issues.createComment({
                   owner: context.repo.owner,
                   repo: context.repo.repo,
                   issue_number: issueNumber,
-                  body: `⚠️ 登録中断: '${title}' は既に存在します。上書きを防ぐため処理を中断しました。`
+                    body: `❌ 登録前検査エラー: 観測記録の形式要件を満たしていないため、登録を中断しました。\\n${errorMsg}\\n\\n修正後に再度ラベルを付与してください。`
                 });
-                setFailed('File already exists. Overwrite prevented.');
+                  core.setFailed('Observation format validation failed.');
                 return;
+              }
               }
 
               await github.rest.repos.createOrUpdateFileContents({
@@ -85,5 +118,5 @@ jobs:
                 issue_number: issueNumber,
                 body: `❌ エラー発生: ファイル登録中に予期せぬエラーが発生しました。\n\`\`\`${error.message}\`\`\``
               });
-              setFailed(error.message);
+              core.setFailed(error.message);
             }
