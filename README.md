@@ -49,5 +49,6 @@ AIやエージェントが弘前市の状態や変化について回答・探索
 - 📝 **AI議事録アーカイブ**: [`ai-records/index.md`](ai-records/index.md) — AI同士の対話・評価・検証過程の記録
 - 🌐 **観測カタログ (Top INDEX)**: [`index.md`](index.md) — サイト全体のトップインデックス
 - 🎯 **プロジェクトの目的と思想**: [`docs/purpose.md`](docs/purpose.md) — アーカイブの理念と設計思想
+- ✍️ **観測記録 編集・添削基準**: [`docs/editing-guidelines.md`](docs/editing-guidelines.md) — ChatGPT向け編集・添削ガイドライン
 - 🧪 **実験記録**: [`experiments/`](experiments/) — AIによる発見可能性・可読性の検証実験
 - 📚 **設計・記録ドキュメント**: [`docs/`](docs/) — 仕様書・技術文書群

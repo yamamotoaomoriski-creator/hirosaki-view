@@ -61,4 +61,3 @@ direct_observation: true
   - `hv-20261106-botanical-garden-south-entrance`
   - `hv-20261106-botanical-garden-north-entrance`
   - `hv-20261106-botanical-garden-north-approach-bamboo`
-- 
