@@ -70,7 +70,7 @@ Hirosaki Viewでは、単純な「写真集」ではなく、複数の観測パ�
 
 `index.md → observations/ → 個別観測ページ` という発見経路を提供する主要な観測記録への入口。
 
-すべての観測記録は `observations/` ディレクトリ内に保存されている。全19記録の時系列・シリーズ別整理は **[観測データ総合インデックス (observations/index.md)](observations/index.md)** を参照。
+すべての観測記録は `observations/` ディレクトリ内に保存されている。全記録の時系列・シリーズ別整理は **[観測データ総合インデックス (observations/index.md)](observations/index.md)** を参照。
 
 * 2026-08-14　[リンゴ型カーブミラー](observations/20260814-apple-mirror.md)
 * 2026-08-16　[りんご公園](observations/20260816-apple-park.md)
@@ -94,6 +94,10 @@ Hirosaki Viewでは、単純な「写真集」ではなく、複数の観測パ�
 * 2026-09-15　[弘前市内横断観測ルート（駅前〜追手門）](observations/20260915-station-to-otemon.md)
 * 2026-10-15　[弘前城植物園内 現地観測記録](observations/20261015-botanical-garden.md)
 * 2026-10-15　[弘前公園内 現地観測記録](observations/20261015-hirosaki-park.md)
+* 2026-11-05　[弘前市りんご公園 ひろさきりんご収穫祭・時系列統合記録](observations/2026-11-05-applepark-harvest-festival-summary.md)
+* 2026-11-06　弘前城 菊と紅葉まつり 総合観測記録 (`hirosaki-castle-chrysanthemum-and-autumn-foliage-festival-2026` シリーズ)
+  * 2026-11-06　[弘前城 菊と紅葉まつり 追手門〜植物園外郭エリア 総合観測記録](observations/20261106-otemon-outer-area-summary.md)
+  * 2026-11-06　[弘前城 菊と紅葉まつり 植物園内部エリア 総合観測記録](observations/20261106-botanical-garden-inner-area-summary.md)
 
 ---
 

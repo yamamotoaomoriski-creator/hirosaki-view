@@ -44,13 +44,23 @@
 - 2026-10-15 [弘前城植物園内](https://yamamotoaomoriski-creator.github.io/hirosaki-view/observations/20261015-botanical-garden.html)
 - 2026-10-15 [現地観測記録（追手門前〜東内門周辺）](https://yamamotoaomoriski-creator.github.io/hirosaki-view/observations/20261015-hirosaki-park.html)
 
-### 4. 都市横断ルート観測（`urban-routes`）
+### 4. 弘前城 菊と紅葉まつり（`hirosaki-castle-chrysanthemum-and-autumn-foliage-festival-2026`）
+弘前城植物園および追手門周辺での「弘前城 菊と紅葉まつり」開催に伴う会場内外のインフラ・造形物・菊花展示の総合観測。
+- 2026-11-06 [追手門〜植物園外郭エリア](https://yamamotoaomoriski-creator.github.io/hirosaki-view/observations/20261106-otemon-outer-area-summary.html) — 追手門前案内看板・立体菊人形・無料案内所・植物園ゲート群
+- 2026-11-06 [植物園内部エリア](https://yamamotoaomoriski-creator.github.io/hirosaki-view/observations/20261106-botanical-garden-inner-area-summary.html) — 菊の会作品展・露店通り・特設ステージ・大型虎フラワーアート・花時計・竹あかり
+
+### 5. 都市横断ルート観測（`urban-routes`）
 弘前駅から中心市街地・弘前公園に至る都市動線（表通り・裏通り）の歩行空間および構造物観測。
 - 2026-08-19 [駅前〜鍛冶町エリア](https://yamamotoaomoriski-creator.github.io/hirosaki-view/observations/20260819-station-kajimachi.html)
 - 2026-08-30 [駅〜弘前公園（裏動線・虹のマート裏）](https://yamamotoaomoriski-creator.github.io/hirosaki-view/observations/20260830-station-to-hirosaki-park.html)
 - 2026-09-15 [駅前〜土手町〜追手門ルート](https://yamamotoaomoriski-creator.github.io/hirosaki-view/observations/20260915-station-to-otemon.html)
 
-### 5. 地点定点観測
+### 6. りんご公園 物理観測・時系列統合（`apple-park-2026`）
+- 2026-08-16 [観測ログ一括ビルド](https://yamamotoaomoriski-creator.github.io/hirosaki-view/observations/20260816-apple-park.html)
+- 2026-08-29 [西部エリア](https://yamamotoaomoriski-creator.github.io/hirosaki-view/observations/20260829-apple-park.html)
+- 2026-11-05 [ひろさきりんご収穫祭・時系列統合記録](https://yamamotoaomoriski-creator.github.io/hirosaki-view/observations/2026-11-05-applepark-harvest-festival-summary.html)
+
+### 7. 地点定点観測
 - 2026-08-14 [リンゴ型カーブミラー](https://yamamotoaomoriski-creator.github.io/hirosaki-view/observations/20260814-apple-mirror.html)
 - 2026-09-03 [青森県武道館 正面プラザ](https://yamamotoaomoriski-creator.github.io/hirosaki-view/observations/20260903-aomoriken-budokan.html)
 - 2026-09-07 [岩木山神社境内](https://yamamotoaomoriski-creator.github.io/hirosaki-view/observations/20260907-iwakisan-jinja.html)
