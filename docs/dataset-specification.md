@@ -18,20 +18,24 @@ Hirosaki View は、弘前市の物理的空間・都市構造・イベントに
 
 ---
 
-## 2. Front Matter スキーマ定義
+## 2. ファイル配置と Front Matter スキーマ定義
 
-各観測ファイル (`observations/YYYYMMDD-slug.md`) は、冒頭に以下のYAML Front Matterを保持します。
+観測ファイルはリポジトリの `observations/` ディレクトリ直下に配置されます。
+ファイル名には、日付部分がハイフンなし8桁の形式（`YYYYMMDD-[slug].md`）とハイフンありの形式（`YYYY-MM-DD-[slug].md`）が存在します。
+
+各観測ファイルは、冒頭に以下のYAML Front Matterを保持します。
 
 | フィールド | 型 | 必須 | 説明 | 記述例 |
 | :--- | :--- | :--- | :--- | :--- |
-| `id` | String | ✓ | 観測記録のユニーク識別子 (`hv-YYYYMMDD-slug`) | `hv-20260917-apple-music-fes-setup` |
-| `date` | Date | ✓ | 観測年月日 (ISO 8601: `YYYY-MM-DD`) | `2026-09-17` |
-| `location` | String | ✓ | 観測地点識別子 | `apple-park`, `hirosaki-park`, `station-to-otemon` |
-| `title` | String | ✓ | 観測記録の正式名称 | `弘前市りんご公園・設置物観測（設営状態）` |
-| `series` | String | - | 関連する時系列観測シリーズ識別子 | `apple-music-fes`, `shirofes`, `urban-routes` |
-| `type` | String | ✓ | 観測種別 (`fixed-point`, `route`, `event-setup`, `event-holding`, `event-teardown`) | `event-setup` |
+| `id` | String | ✓ | 観測記録のユニーク識別子（`hv-[ファイル名から.mdを除いたもの]`） | `hv-20260917-apple-music-fes-setup`, `hv-2026-11-05-applepark-harvest-festival-summary` |
+| `date` | Date | ✓ | 観測年月日 (ISO 8601: `YYYY-MM-DD`) | `2026-09-17`, `2026-11-05` |
+| `location` | String | ✓ | 観測地点識別子 | `apple-park`, `hirosaki-park`, `hirosaki-park-otemon`, `station-to-otemon` |
+| `title` | String | ✓ | 観測記録の正式名称 | `弘前市りんご公園・設置物観測（設営状態）`, `"弘前市りんご公園 ひろさきりんご収穫祭・時系列統合記録"` |
+| `series` | String | - | 関連する時系列観測シリーズ識別子 | `apple-music-fes`, `shirofes`, `urban-routes`, `apple-park-2026` |
+| `type` | String | ✓ | 観測種別 (`fixed-point`, `route`, `event-setup`, `event-holding`, `event-teardown`, `event-time-series-summary`) | `event-setup`, `event-time-series-summary` |
 | `observer` | String | ✓ | 観測実施者名 | `Hirosaki-View` |
-| `direct_observation` | Boolean | ✓ | 現地直接観測であるかフラグ | `true` |
+| `direct_observation` | Boolean | ✓ | 現地直接観測であるかフラグ（個別直接観測は `true`、複数観測の時系列統合サマリー等は `false`） | `true`, `false` |
+| `period` | String | - | 観測期間（複数時点を統合した時系列記録等で期間を定義する場合に設定） | `2026-10-30T08:21:00+09:00 - 2026-11-05T08:22:00+09:00` |
 | `prev_observation` | String | - | シリーズ内の1つ前の観測記録ファイル名 | `20260914-apple-music-fes-normal.md` |
 | `next_observation` | String | - | シリーズ内の1つ後の観測記録ファイル名 | `20260919-apple-music-fes-holding.md` |
 
@@ -44,6 +48,7 @@ Hirosaki View は、弘前市の物理的空間・都市構造・イベントに
 3. **`event-setup` (設営観測)**: イベント開催前の資材搬入・仮設インフラ構築状態の記録。
 4. **`event-holding` (開催・利用観測)**: イベント本番中の仮設インフラフル稼働状態の記録。
 5. **`event-teardown` (撤収・原状回復観測)**: イベント終了後の解体・資材搬出および空間復旧状態の記録。
+6. **`event-time-series-summary` (時系列統合記録)**: 同一地点・一連のイベントにおける複数時点の観測記録を統合し、設営・開催・撤去の推移や空間変容を包括的に総括する記録。
 
 ---
 
@@ -73,10 +78,12 @@ Hirosaki View は、弘前市の物理的空間・都市構造・イベントに
 
 ---
 ## 観測間ナビゲーション / 関連リンク
-- **前回の観測記録**: [通常状態](../observations/20260914-apple-music-fes-normal.md)
-- **次回の観測記録**: [開催状態](../observations/20260919-apple-music-fes-holding.md)
-- **観測インデックス**: [観測カタログ](../observations/index.md)
+- **前回の観測記録**: [通常状態](20260914-apple-music-fes-normal.md)
+- **次回の観測記録**: [開催状態](20260919-apple-music-fes-holding.md)
+- **観測インデックス**: [観測カタログ](index.md)
 ```
+
+※観測Markdownファイル（`observations/` 直下）同士の内部リンクは、同一階層のため不要な `../observations/` を含めず相対ファイル名（`20260914-apple-music-fes-normal.md` や `index.md`）で指定します。
 
 ---
 

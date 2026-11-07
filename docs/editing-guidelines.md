@@ -10,10 +10,10 @@ description: "Geminiが作成した下書き観測Markdownを、ChatGPTが既存
 
 本ドキュメントは、弘前市の現地直接観測アーカイブである「Hirosaki View（ヒロサキビュー）」において、**新規観測記録を既存アーカイブ（`observations/`）に自然に統合するための編集・添削基準**を定めたものです。
 
-今後の観測運用体制：
+現在の観測運用体制：
 1. **Gemini**: 現地観測情報（メモ・写真番号・日時・場所・一次所見など）に基づき、観測記録Markdownの下書き（ドラフト）を作成する。
-2. **ChatGPT**: 本基準書および既存リポジトリを参照し、形式、メタデータ（Front Matter）、事実と解釈の分離、命名規則、内部リンク、文章表現を添削・補正する。
-3. **GitHub Auto-Register**: 添削後の完成Markdownを人間がGitHub Issue等を通じて `observations/` ディレクトリに登録する。
+2. **ChatGPT**: 本基準書および既存リポジトリの実データ・規則・関連記録を参照し、形式、メタデータ（Front Matter）、事実と解釈の分離、命名規則、内部リンク、文章表現を添削・補正する。
+3. **人間確認と登録**: 人間が添削内容を確認し、GitHub Register（入力支援・登録ツール）等を通じて `observations/` ディレクトリに登録する。
 
 添削者（ChatGPT）の最重要の役割は、**「新しい理想的なフォーマットを勝手に考案すること」ではなく、「既存アーカイブの住人（実データ）と同じ形式・品質・関係性を持つ形に整えること」**です。
 
@@ -24,21 +24,26 @@ description: "Geminiが作成した下書き観測Markdownを、ChatGPTが既存
 観測ファイルはリポジトリの `observations/` ディレクトリ直下に配置されます。
 
 ### 2-1. ファイル命名規則
-基本フォーマット：
-```text
-observations/YYYYMMDD-[location-or-series-slug].md
-```
-- **日付部 (`YYYYMMDD`)**: 観測実施日をハイフンなしの8桁西暦（例: `20260917`）で表記します。
-  - ※注意: 過去に `2026-11-03-...` や `2026-11-05-...` のようなハイフン入りファイル名が一時的に作成された履歴がありますが、標準の正規規則は**ハイフンなし8桁**（`2026MMDD`）です。
+アーカイブ内の観測ファイルには、日付部分の表記として以下の2形式が存在します。
+
+1. **ハイフンなし8桁形式**: `observations/YYYYMMDD-[location-or-series-slug].md`（例: `20260917-apple-music-fes-setup.md`）
+2. **ハイフンあり形式**: `observations/YYYY-MM-DD-[location-or-series-slug].md`（例: `2026-11-05-applepark-harvest-festival-summary.md`）
+
+既存アーカイブの実データには両形式が併存しており、既存ファイルを一方に統一するための改名は行いません。
+新規ファイル作成時は、対象シリーズや既存の関連記録の命名傾向を確認して整合する形式を採用します。
+
+- **日付部**: 観測実施日または観測期間の基準日（`YYYYMMDD` または `YYYY-MM-DD`）。
 - **スラッグ部 (`slug`)**: 半角小文字英数字とハイフンのみを使用します。
   - 地点名、またはイベント/シリーズ名を表す簡潔な英語識別子にします。
-  - 例: `apple-music-fes-setup.md`, `hirosaki-park.md`, `station-to-otemon.md`, `botanical-garden-inner-area-summary.md`
+  - 例: `apple-music-fes-setup`, `hirosaki-park`, `station-to-otemon`, `botanical-garden-inner-area-summary`, `applepark-harvest-festival-summary`
 
 ### 2-2. 観測ID (`id`) の生成規則
-Front Matter 内の `id` は、**ファイル名（拡張子 `.md` を除く）の先頭に `hv-` を付与したもの**と完全一致させます。
+Front Matter 内の `id` は、**ファイル名（拡張子 `.md` を除く）の先頭に `hv-` を付与したもの**と完全一致させます（ファイル名が `YYYYMMDD-...` でも `YYYY-MM-DD-...` でも同様です）。
 
 - ファイル名が `20260917-apple-music-fes-setup.md` の場合：
   `id: hv-20260917-apple-music-fes-setup`
+- ファイル名が `2026-11-05-applepark-harvest-festival-summary.md` の場合：
+  `id: hv-2026-11-05-applepark-harvest-festival-summary`
 - ファイル名が `20261106-otemon-outer-area-summary.md` の場合：
   `id: hv-20261106-otemon-outer-area-summary`
 
@@ -67,7 +72,7 @@ next_observation: 20260919-apple-music-fes-holding.md
 
 | フィールド名 | 必須 | 型 | 説明 | 許容値 / 記述例 |
 | :--- | :---: | :--- | :--- | :--- |
-| `id` | **必須** | String | 観測記録の一意識別子 | `hv-YYYYMMDD-slug` |
+| `id` | **必須** | String | 観測記録の一意識別子（`hv-[ファイル名から.mdを除いたもの]`） | `hv-20260917-apple-music-fes-setup`, `hv-2026-11-05-applepark-harvest-festival-summary` |
 | `date` | **必須** | Date | 観測実施日（ISO 8601形式） | `2026-09-17` |
 | `location` | **必須** | String | 観測地点識別子（小文字ケバブケース） | `apple-park`, `hirosaki-park`, `hirosaki-park-otemon`, `station-to-otemon`, `iwakisan-jinja`, `aomoriken-budokan` |
 | `title` | **必須** | String | 観測記録の正式タイトル（ダブルクォート推奨） | `"弘前市りんご公園・りんごミュージックフェス関連設置物観測（設営状態：2026-09-17）"` |
@@ -210,9 +215,9 @@ LLMの生成物に時折混入する `[span_0](start_span)` や `[span_1](end_sp
 
 Gemini作成の下書きを受け取ったら、ChatGPTは以下のチェックリストに沿って添削を行ってください。
 
-- [ ] **ファイル名**: `YYYYMMDD-[slug].md` の命名規則に従っているか？
+- [ ] **ファイル名**: 命名規則（`YYYYMMDD-[slug].md` または `YYYY-MM-DD-[slug].md`）に沿っているか？
 - [ ] **Front Matter**: 必須フィールド（`id`, `date`, `location`, `title`, `type`, `observer`, `direct_observation`）が揃っているか？
-- [ ] **観測ID**: `id: hv-[slug]` がファイル名と一致しているか？
+- [ ] **観測ID**: `id` が `hv-[ファイル名から.mdを除いたもの]` と完全一致しているか？
 - [ ] **必須キーワード**: 本文中に「`観測日時`」「`場所`」「`観測対象`」の3項目が含まれているか？
 - [ ] **事実と解釈の分離**: 「観測事実」の欄に主観的な憶測やイベント概要が混ざっていないか？
 - [ ] **未確認事項の明示**: 不明な情報を推測で捏造・補完していないか？
