@@ -43,11 +43,20 @@ description: "弘前市の現地直接観測データ（observations/）の時�
 
 ---
 
+### 🍁 弘前城 菊と紅葉まつり 総合観測シリーズ（`hirosaki-castle-chrysanthemum-and-autumn-foliage-festival-2026`）
+弘前城植物園および追手門周辺で開催された「弘前城 菊と紅葉まつり」に伴う会場内外の展示・インフラ・空間構造の総合現地観測。
+
+- **2026-11-06 (追手門〜外郭)**: [弘前城 菊と紅葉まつり 追手門〜植物園外郭エリア 総合観測記録](20261106-otemon-outer-area-summary.md) — 追手門前案内看板・立体菊人形・無料案内所テント・植物園南入口/北入口ゲート群
+- **2026-11-06 (植物園内部)**: [弘前城 菊と紅葉まつり 植物園内部エリア 総合観測記録](20261106-botanical-garden-inner-area-summary.md) — 菊の会作品展・露店通り・特設ステージ・大型虎フラワーアート・花時計・竹あかりオブジェ
+
+---
+
 ### 🍏 りんご公園 物理観測シリーズ（`apple-park-2026`）
-弘前市りんご公園における観光・農業・国際交流インフラ等の物理的状態の定点記録。
+弘前市りんご公園における観光・農業・国際交流インフラおよび催事等の物理的状態の定点・時系列記録。
 
 - **2026-08-16**: [弘前市りんご公園 観測ログ一括ビルド](20260816-apple-park.md) — アンブレラスカイ・展示物・園内各施設
 - **2026-08-29**: [観測サマリー：りんご公園西部エリア](20260829-apple-park.md) — 若い果樹・トレリス構造・記念植樹プレート
+- **2026-11-05**: [弘前市りんご公園 ひろさきりんご収穫祭・時系列統合記録](2026-11-05-applepark-harvest-festival-summary.md) — 収穫祭開催に伴う仮設設備の設営・展開・残存・撤去完了までの時系列空間変容
 
 ---
 
@@ -92,15 +101,18 @@ description: "弘前市の現地直接観測データ（observations/）の時�
 | 2026-09-22 | `hv-20260922-apple-music-fes-teardown` | りんご音楽フェス (撤収後) | りんご公園 | 撤収 | [20260922-apple-music-fes-teardown.md](20260922-apple-music-fes-teardown.md) |
 | 2026-10-15 | `hv-20261015-botanical-garden` | 弘前城植物園内 現地観測記録 | 弘前公園植物園内 | 固定点 | [20261015-botanical-garden.md](20261015-botanical-garden.md) |
 | 2026-10-15 | `hv-20261015-hirosaki-park` | 弘前公園内 現地観測記録 | 弘前公園 | 固定点 | [20261015-hirosaki-park.md](20261015-hirosaki-park.md) |
+| 2026-11-05 | `hv-2026-11-05-applepark-harvest-festival-summary` | ひろさきりんご収穫祭・時系列統合記録 | 弘前市りんご公園 | 時系列統合 | [2026-11-05-applepark-harvest-festival-summary.md](2026-11-05-applepark-harvest-festival-summary.md) |
+| 2026-11-06 | `hv-20261106-otemon-outer-area-summary` | 菊と紅葉まつり 追手門〜植物園外郭エリア 総合観測記録 | 弘前公園 追手門〜植物園外郭 | 固定点/総合 | [20261106-otemon-outer-area-summary.md](20261106-otemon-outer-area-summary.md) |
+| 2026-11-06 | `hv-20261106-botanical-garden-inner-area-summary` | 菊と紅葉まつり 植物園内部エリア 総合観測記録 | 弘前公園植物園 内部エリア | 固定点/総合 | [20261106-botanical-garden-inner-area-summary.md](20261106-botanical-garden-inner-area-summary.md) |
 
 ---
 
 ## 3. 地点（エリア）別インデックス
 
-* **弘前公園エリア (`hirosaki-park`)**:
-  * [2026-08-22 前半](20260822-hirosaki-park.md), [2026-08-22 後半](20260822-hirosaki-park-event.md), [2026-08-30](20260830-hirosaki-park.md), [2026-09-04 設営](20260904-shirofes-setup.md), [2026-09-07 撤収](20260907-shirofes-teardown.md), [2026-10-15 植物園](20261015-botanical-garden.md), [2026-10-15 公園内](20261015-hirosaki-park.md)
+* **弘前公園エリア (`hirosaki-park`, `hirosaki-park-otemon`, `hirosaki-castle-botanical-garden-inside`)**:
+  * [2026-08-22 前半](20260822-hirosaki-park.md), [2026-08-22 後半](20260822-hirosaki-park-event.md), [2026-08-30](20260830-hirosaki-park.md), [2026-09-04 設営](20260904-shirofes-setup.md), [2026-09-07 撤収](20260907-shirofes-teardown.md), [2026-10-15 植物園](20261015-botanical-garden.md), [2026-10-15 公園内](20261015-hirosaki-park.md), [2026-11-06 追手門〜外郭](20261106-otemon-outer-area-summary.md), [2026-11-06 植物園内部](20261106-botanical-garden-inner-area-summary.md)
 * **弘前市りんご公園エリア (`apple-park`)**:
-  * [2026-08-16](20260816-apple-park.md), [2026-08-29](20260829-apple-park.md), [2026-09-14 通常](20260914-apple-music-fes-normal.md), [2026-09-17 設営](20260917-apple-music-fes-setup.md), [2026-09-19 開催](20260919-apple-music-fes-holding.md), [2026-09-22 撤収](20260922-apple-music-fes-teardown.md)
+  * [2026-08-16](20260816-apple-park.md), [2026-08-29](20260829-apple-park.md), [2026-09-14 通常](20260914-apple-music-fes-normal.md), [2026-09-17 設営](20260917-apple-music-fes-setup.md), [2026-09-19 開催](20260919-apple-music-fes-holding.md), [2026-09-22 撤収](20260922-apple-music-fes-teardown.md), [2026-11-05 収穫祭時系列統合](2026-11-05-applepark-harvest-festival-summary.md)
 * **弘前駅〜中心市街地ルート (`urban-routes`)**:
   * [2026-08-19 駅〜鍛冶町](20260819-station-kajimachi.md), [2026-08-30 駅〜公園裏動線](20260830-station-to-hirosaki-park.md), [2026-09-15 駅〜追手門](20260915-station-to-otemon.md)
 * **岩木山神社 (`iwakisan-jinja`)**:
@@ -122,7 +134,7 @@ description: "弘前市の現地直接観測データ（observations/）の時�
   "description": "弘前市の物理的現実（イベント仮設物・工事・都市動線・変化）を人間が現地直接観測した一次観測データカタログ。",
   "url": "https://yamamotoaomoriski-creator.github.io/hirosaki-view/observations/index.html",
   "sameAs": "https://github.com/yamamotoaomoriski-creator/hirosaki-view/tree/main/observations",
-  "keywords": ["弘前", "Hirosaki", "都市観測", "一次データ", "りんご公園", "弘前公園", "SHIROFES", "りんごミュージックフェス"],
+  "keywords": ["弘前", "Hirosaki", "都市観測", "一次データ", "りんご公園", "弘前公園", "SHIROFES", "りんごミュージックフェス", "菊と紅葉まつり", "ひろさきりんご収穫祭"],
   "license": "https://creativecommons.org/publicdomain/zero/1.0/",
   "creator": {
     "@type": "Organization",
@@ -132,7 +144,7 @@ description: "弘前市の現地直接観測データ（observations/）の時�
     "@type": "Place",
     "name": "Hirosaki City, Aomori Prefecture, Japan"
   },
-  "temporalCoverage": "2026-08-14/2026-10-15"
+  "temporalCoverage": "2026-08-14/2026-11-06"
 }
 </script>
 

@@ -6,7 +6,7 @@
     <atom:link href="https://yamamotoaomoriski-creator.github.io/hirosaki-view/feed.xml" rel="self" type="application/rss+xml" />
     <description>青森県弘前市の物理的現実（都市景観・建築・イベント仮設・工事）を現地で直接観測した一次情報ログのRSSフィード。</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 06 Nov 2026 16:10:21 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 11:38:11 +0900</lastBuildDate>
     <item>
       <title>弘前城 菊と紅葉まつり 植物園内部エリア 総合観測記録</title>
       <link>https://yamamotoaomoriski-creator.github.io/hirosaki-view/observations/20261106-botanical-garden-inner-area-summary.html</link>
@@ -160,87 +160,27 @@ Source of Truth (Raw MD): https://raw.githubusercontent.com/yamamotoaomoriski-cr
       <source url="https://raw.githubusercontent.com/yamamotoaomoriski-creator/hirosaki-view/main/observations/20261106-otemon-outer-area-summary.md">Source Markdown (Source of Truth)</source>
     </item>
     <item>
-      <title>2026-11-05-applepark-harvest-festival-summary</title>
+      <title>弘前市りんご公園 ひろさきりんご収穫祭・時系列統合記録</title>
       <link>https://yamamotoaomoriski-creator.github.io/hirosaki-view/observations/2026-11-05-applepark-harvest-festival-summary.html</link>
       <guid isPermaLink="true">https://yamamotoaomoriski-creator.github.io/hirosaki-view/observations/2026-11-05-applepark-harvest-festival-summary.html</guid>
       <pubDate>Thu, 05 Nov 2026 00:00:00 +0900</pubDate>
       <description>=== Front Matter Metadata ===
+観測ID: hv-2026-11-05-applepark-harvest-festival-summary
 観測日時: 2026-11-05
+場所: apple-park
+シリーズ: apple-park-2026
+観測種別: event-time-series-summary
+観測者: Hirosaki-View
 Web公開ページ: https://yamamotoaomoriski-creator.github.io/hirosaki-view/observations/2026-11-05-applepark-harvest-festival-summary.html
 Source of Truth (Raw MD): https://raw.githubusercontent.com/yamamotoaomoriski-creator/hirosaki-view/main/observations/2026-11-05-applepark-harvest-festival-summary.md
 
 === Observation Content ===
-リポジトリ &quot;hirosaki-view&quot; に、弘前市りんご公園「ひろさきりんご収穫祭2026」の時系列統合記録を追加してください。
+# 弘前市りんご公園 ひろさきりんご収穫祭・時系列統合記録
 
-1. 登録対象
-
-ファイル名案：
-&quot;observations/2026-11-05-ringopark-harvest-festival-summary.md&quot;
-
-以下の内容を新規Markdownファイルとして登録してください。
-
-- 提供された時系列統合記録のMarkdown全文
-- 個別観測IDと画像ファイルの対応情報
-- 弘前市公式の開催日程への参照リンク
-- 観測目的、比較対象、観測事実、推知・解釈、未確認事項
-
-2. 登録前の確認
-
-既存リポジトリのディレクトリ構造、ファイル命名規則、Front Matterの形式を確認し、既存仕様との整合性を優先してください。
-
-個別観測記録がすでに存在する場合は、その実際のファイルパスを確認し、統合記録から参照できるようにしてください。
-
-既存の個別観測記録や画像ファイルは変更・削除しないでください。
-
-3. データの取り扱い
-
-以下の原則を維持してください。
-
-- 直接観測と推知・解釈を区別する。
-- 推知は排除せず、根拠となる観測事実とともに保持する。
-- 推知によって直接観測の記述を書き換えない。
-- 公式情報は背景情報として参照する。
-- 未確認事項は未確認として残す。
-- 観測間の空白期間を、連続観測された事実として扱わない。
-
-特にイベント開催日は、弘前市公式情報に基づき2026年10月31日・11月1日、両日10:00〜15:00としてください。
-
-11月2日は開催終了後の観測として扱い、荒天によるイベント一時停止とは記述しないでください。
-
-4. サイトへの反映
-
-既存のヒロサキビューの構造に従って登録してください。
-
-- observationsの既存構造を維持する。
-- 必要に応じて既存の一覧・索引から参照できるようにする。
-- sitemapやPagesの既存仕様を壊さない。
-- 同じ内容の重複ファイルを作らない。
-
-5. 完了報告
-
-以下を報告してください。
-
-1. 登録したファイルパス
-2. 個別観測記録とのリンク状況
-3. 一覧・索引への反映状況
-4. 変更したファイル一覧
-5. GitHub Pagesでの公開確認結果
-6. 未解決事項があればその内容
-
-既存データの整合性を優先し、必要以上の構造変更は行わないでください。
-
----
-
-id: SUMMARY-20261030-1105-RINGO-PARK
-date: 2026-11-05
-place: 弘前市りんご公園
-sub_location: ふれあい広場
-observation_type: event_time_series_summary
-period: 2026-10-30T08:21:00+09:00 - 2026-11-05T08:22:00+09:00
-observer: HiroSaki-View
-status: consolidated
-
-弘前市りんご公園 ひろさきりんご収穫祭・時系列統合記録
+## 観測概要
+- **観測日時**: 2026-10-30T08:21:00+09:00 〜 2026-11-05T08:22:00+09:00
+- **場所**: 弘前市りんご公園 ふれあい広場
+- **観測対象**: ひろさきりんご収穫祭2026 仮設設備・空間状態の時系列変化
 
 対象期間：2026年10月30日〜11月5日
 
@@ -411,8 +351,7 @@ OBS-20261105-0822-001| 11/05 08:22| 曇り・路面乾燥| 開催終了後・撤
 - 観測間の空白期間に発生した出来事を、連続して確認された事実として扱わない。
 - 統合記録から個別観測記録および一次画像へ遡れる構造を維持する。
 
-本記録は、2026年10月30日から11月5日までの4時点の観測を統合した時系列記録である。観測されていない時間帯の状態を連続的に保証するものではない。
-</description>
+本記録は、2026年10月30日から11月5日までの4時点の観測を統合した時系列記録である。観測されていない時間帯の状態を連続的に保証するものではない。</description>
       <source url="https://raw.githubusercontent.com/yamamotoaomoriski-creator/hirosaki-view/main/observations/2026-11-05-applepark-harvest-festival-summary.md">Source Markdown (Source of Truth)</source>
     </item>
     <item>
