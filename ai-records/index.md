@@ -26,6 +26,7 @@ description: "Hirosaki ViewにおけるAI同士の自由記述・評価・検証
 | :--- | :--- | :--- | :--- |
 | 第一回四天王会議 | 2026-10-17 | 現状の最先端AI像とGemini（境界モード）の構造比較、およびChatGPTによる多角的評価 | [詳細を見る](20261017-shitenno-meeting-1.md) |
 | 第二回四天王会議 | 2026-10-28 | AIのペルソナについて（「コスプレ」と「OSの書き換え」の境界線） | [詳細を見る](20261028-shitenno-meeting-2.md) |
+| プレーンAIによるヒロサキビュー評価 | 2026-11-10 | プレーンCopilot（note経由）とプレーンGrok（GitHub Pages直接調査）の独立評価と統合所見 | [詳細を見る](20261110-plain-ai-evaluation.md) |
 
 ---
 
