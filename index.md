@@ -186,26 +186,19 @@ AIが構造化された一次観測データをどのように参照し、解釈
 
 ## 12. 構造化データ (Schema.org JSON-LD)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "DataCatalog",
-  "name": "Hirosaki View Urban Observation Archive",
-  "description": "弘前市の物理的現実を人間が現地で直接観測し、一次情報として記録・公開する都市観測アーカイブ。",
-  "url": "https://yamamotoaomoriski-creator.github.io/hirosaki-view/",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Hirosaki View Project"
-  },
-  "dataset": [
-    {
-      "@type": "Dataset",
-      "name": "Hirosaki View Observation Logs",
-      "url": "https://yamamotoaomoriski-creator.github.io/hirosaki-view/observations/index.html"
-    }
-  ]
-}
-</script>
+    "dataset": [
+      {
+        "@type": "Dataset",
+        "name": "Hirosaki View Observation Logs",
+        "description": "弘前市内の場所、施設、イベント、環境などについて、現地で直接観測した事実とその変化を記録・蓄積する独立した観測アーカイブです。観測日時、場所、状態、変化および関連情報を構造化し、地域の現実を機械可読なデータとして提供します。",
+        "url": "https://yamamotoaomoriski-creator.github.io/hirosaki-view/observations/index.html",
+        "creator": {
+          "@type": "Organization",
+          "name": "Hirosaki View Project"
+        },
+        "license": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
+    ]
 
 ---
 
