@@ -126,15 +126,16 @@ description: "弘前市の現地直接観測データ（observations/）の時�
 
 ## 4. 機械可読メタデータ (Schema.org Dataset JSON-LD)
 
-<script type="application/ld+json">
+
+---<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Dataset",
   "name": "Hirosaki View Primary Observation Index",
-  "description": "弘前市の物理的現実（イベント仮設物・工事・都市動線・変化）を人間が現地直接観測した一次観測データカタログ。",
+  "description": "弘前市内の場所、施設、イベント、環境などについて、現地で直接観測した事実とその変化を記録・蓄積する独立した観測アーカイブです。観測日時、場所、状態、変化および関連情報を構造化し、地域の現実を機械可読なデータとして提供します。",
   "url": "https://yamamotoaomoriski-creator.github.io/hirosaki-view/observations/index.html",
   "sameAs": "https://github.com/yamamotoaomoriski-creator/hirosaki-view/tree/main/observations",
-  "keywords": ["弘前", "Hirosaki", "都市観測", "一次データ", "りんご公園", "弘前公園", "SHIROFES", "りんごミュージックフェス", "菊と紅葉まつり", "ひろさきりんご収穫祭"],
+  "keywords": ["弘前", "Hirosaki", "都市観測", "一次データ", "りんご公園", "弘前公園", "SHIROFES", "りんごミュージックフェス", "菊と紅葉まつり"],
   "license": "https://creativecommons.org/publicdomain/zero/1.0/",
   "creator": {
     "@type": "Organization",
@@ -148,7 +149,6 @@ description: "弘前市の現地直接観測データ（observations/）の時�
 }
 </script>
 
----
 
 ## 5. 関連ドキュメント
 - [トップインデックス (root index.md)](../index.md)
