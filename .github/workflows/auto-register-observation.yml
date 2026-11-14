@@ -1,0 +1,22 @@
+name: Auto Register Observation
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  register:
+    if: github.event.label.name == 'register-md'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: read
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # ここにMarkdownや画像ファイルをリポジトリへ書き込むスクリプト・処理を記述
+      - name: Run register script
+        run: |
+          echo "Registering observation for issue ${{ github.event.issue.number }}"
+          # 実際の登録処理コマンドをここに置く
