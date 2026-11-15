@@ -6,7 +6,6 @@ to docs/FORMAT_MASTER.md.
 
 ## Current status
 
-- No Structured Data records have been generated yet.
 - Raw Observation files remain in observations/.
 - Raw files must never be modified by reconstruction.
 - Initial reconstruction is performed one file at a time.
