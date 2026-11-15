@@ -1,0 +1,232 @@
+format:
+  master_version: '1.0'
+  master_git_commit: 9ea11befdff66146bdcc47176a605d8957a58117
+observation_facts:
+  raw_title: 弘前公園 夜間景観・施設状態ルート観測記録（2026-11-14）
+  overview:
+  - '観測日時: 2026-11-14 20:02〜20:27'
+  - '場所: 弘前公園（追手門外堀、追手門、園路、杉の大杉付近、二の丸未申櫓工事現場、本丸天守、蓮沼方向、東内門、南内門）'
+  - '観測対象: 夜間ライトアップ、紅葉・黄葉、水面反射、園路照明、門・石垣等の構造物、工事現場、仮設設備、通行規制の状態'
+  - '天候: 曇'
+  - '観測者: Hirosaki-View'
+  points:
+  - point_id: HP-002
+    location: 追手門前外堀・市役所側
+    time: '20:02'
+    statements:
+    - 外堀沿いの樹木がライトアップされている。
+    - 手前の樹木には黄葉した葉が残り、中景以降では落葉が進行している。
+    - 水面にライトと樹木が鏡面反射している。
+    - 地上に投光器が等間隔で配置されている。
+  - point_id: HP-003
+    location: 追手門前外堀・公園側
+    time: '20:02'
+    statements:
+    - 傾斜のある樹木がライトアップされている。
+    - 樹木に切断跡と苔が確認できる。
+    - 斜面に「立入禁止」の白い立て看板が設置されている。
+    - 奥の園路沿いに縦長のぼり旗が設置されている。
+    - 竹製の四つ目垣と生垣が連続している。
+  - point_id: HP-004
+    location: 追手門
+    time: '20:02'
+    statements:
+    - 追手門および白壁・黒板塀が青色・暖色系の照明でライトアップされている。
+    - 石垣前に案内板が設置されている。
+    - 土手斜面に白い札が確認できる。
+    - 観測時点で物理的な封鎖柵は確認されなかった。
+  - point_id: HP-005
+    location: 追手門〜植物園南案内所
+    time: '20:03'
+    statements:
+    - 直線状の園路の両側に足元灯が連続して配置されている。
+    - 周辺樹木は黄葉・落葉状態にある。
+    - 右手前に高所の街路灯が1基設置されている。
+    - 左手前に柱状の案内標識が設置されている。
+    - 遠方に人物2名を確認した。
+  - point_id: HP-006
+    location: 杉の大杉から植物園側
+    time: '20:07'
+    statements:
+    - 堀の水面に落葉が浮遊している。
+    - 水面にライトアップが反射している。
+    - 手前の土手上に太い切断幹と落葉樹が確認できる。
+    - 奥に赤く紅葉した樹木と、等間隔に配置された投光器群が確認できる。
+  - point_id: HP-007
+    location: 二の丸未申櫓工事現場
+    time: '20:09'
+    statements:
+    - 白い仮囲いと伸縮式ゲートによって通行が遮断されている。
+    - 工事看板が設置されている。
+    - statement: 工事看板の記載内容は以下のとおり。
+      details:
+      - '工事件名: 令和8年度 重要文化財弘前城二の丸未申櫓災害復旧工事'
+      - '施工: 株式会社 西村組'
+      - '工期: 令和8年9月10日〜令和9年3月30日'
+    - 「24時間監視 防犯カメラ」のステッカーが貼付されている。
+  - point_id: HP-008
+    location: 本丸天守周辺（曳屋・移動工事状態）
+    time: '20:13'
+    statements:
+    - 天守下部に赤色の鉄骨受け梁と木製ジャッキ（架台）が挿入されている。
+    - 天守は持ち上げられた状態でライトアップされている。
+    - 大型伸縮ゲートが設置され、本丸エリアは観測時点で夜間閉鎖されている。
+  - point_id: HP-009
+    location: 本丸蓮沼方向
+    time: '20:16'
+    statements:
+    - 鮮やかな赤色に紅葉したカエデ類と黄葉した樹木の対比が確認できる。
+    - 石垣、地表に堆積した大量の落葉が確認できる。
+    - 小型投光器および行灯風デザインの照明が配置されている。
+  - point_id: HP-010
+    location: 東内門・中堀側
+    time: '20:20'
+    statements:
+    - 中堀沿いの樹木が強い赤色の照明でライトアップされている。
+    - 水面に照明が反射している。
+    - 「RETURN」の文字が型抜きされた特設行灯照明が設置されている。
+    - 家紋が型抜きされた特設行灯照明が設置されている。
+    - 球状の装飾オブジェが配置されている。
+  - point_id: HP-011
+    location: 東内門付近（工事・仮設足場エリア）
+    time: '20:22'
+    statements:
+    - 修復工事に伴う仮設足場とシート養生が確認できる。
+    - 別アングルでは「桜ミク」の大型ラッピングシートが掲出されている。
+  - point_id: HP-012
+    location: 南内門と杉の大杉側の紅葉
+    time: '20:27'
+    statements:
+    - 南内門の白壁が照明によって発光している。
+    - 門越しに赤く紅葉した樹木が見える構図を確認した。
+    - 周辺樹木には紅葉・黄葉のグラデーションが見られる。
+    - 案内看板が設置されている。
+contemporary_context:
+  change_transition:
+  - 本記録は2026年11月14日の単一観測セッションにおける各地点の状態を記録したものである。
+  - 今回の観測範囲では、外堀・中堀沿いの樹木や門・園路のライトアップ、園路照明、工事用仮囲い・ゲート、仮設足場、通行規制設備などが確認された。
+  - 前回観測との比較による変化の確定は、本記録では行わない。
+  human_observation:
+  - 本記録では、観測者による追加の解釈・推知は行わず、各地点で確認した物理的状態を記録する。
+structure:
+  classification_by: AI
+  state:
+    description: Observation Factsに記録された各地点の観測時点の状態。
+    point_ids:
+    - HP-002
+    - HP-003
+    - HP-004
+    - HP-005
+    - HP-006
+    - HP-007
+    - HP-008
+    - HP-009
+    - HP-010
+    - HP-011
+    - HP-012
+  change:
+    status: not_determined
+    description: 単一観測セッションであり、前回観測との比較による変化は確定されていない。
+    comparison_sources: []
+  event:
+    status: not_identified
+    event_name: null
+    phase: null
+    basis: Rawに関連イベント名・イベントフェーズの明示がないため、分類していない。
+  relationships:
+    same_observation_session:
+    - HP-002
+    - HP-003
+    - HP-004
+    - HP-005
+    - HP-006
+    - HP-007
+    - HP-008
+    - HP-009
+    - HP-010
+    - HP-011
+    - HP-012
+    sequence:
+    - HP-002
+    - HP-003
+    - HP-004
+    - HP-005
+    - HP-006
+    - HP-007
+    - HP-008
+    - HP-009
+    - HP-010
+    - HP-011
+    - HP-012
+    previous_observation: not_specified
+    next_observation: not_specified
+    related_records: []
+    note: Rawに前後の観測記録への明示的な指定はない。確認したobservations/index.mdにも本記録自体の掲載は確認できないため、前後関係を推定で追加していない。
+ai_interpretation:
+  items: []
+  note: Rawに追加の解釈・推知を行わない旨が記載されているため、AI解釈は追加していない。
+residual:
+  status: empty
+  entries: []
+provenance:
+  source_raw: observations/20261114-hirosaki-park-night-observation.md
+  raw_front_matter:
+    id: hv-20261114-hirosaki-park-night-observation
+    date: '2026-11-14'
+    location: hirosaki-park
+    title: 弘前公園 夜間景観・施設状態ルート観測記録（2026-11-14）
+    type: route
+    observer: Hirosaki-View
+    direct_observation: true
+    period: '2026-11-14T20:02:00+09:00 - 2026-11-14T20:27:00+09:00'
+  evidence:
+  - point_id: HP-002
+    files:
+    - 3670.jpg
+  - point_id: HP-003
+    files:
+    - 3672.jpg
+  - point_id: HP-004
+    files:
+    - 3674.jpg
+  - point_id: HP-005
+    files:
+    - 3676.jpg
+  - point_id: HP-006
+    files:
+    - 3682.jpg
+  - point_id: HP-007
+    files:
+    - 3684.jpg
+    - 3686.jpg
+  - point_id: HP-008
+    files:
+    - 3688.jpg
+    - 3690.jpg
+  - point_id: HP-009
+    files:
+    - 3692.jpg
+  - point_id: HP-010
+    files:
+    - 3694.jpg
+    - 3700.jpg
+    - 3696.jpg
+    - 3702.jpg
+  - point_id: HP-011
+    files:
+    - 3704.jpg
+    - 3706.jpg
+  - point_id: HP-012
+    files:
+    - 3712.jpg
+    - 3714.jpg
+  observation_confidence:
+    value: not_stated
+    basis: RawにObservation Confidenceの明示的な評価はない。
+  navigation:
+  - label: 観測カタログ
+    target: observations/index.md
+  generator: ChatGPT GPT-6 (manual reconstruction)
+  generated_at: '2026-11-15'
+  master_version: '1.0'
+  master_git_commit: 9ea11befdff66146bdcc47176a605d8957a58117
