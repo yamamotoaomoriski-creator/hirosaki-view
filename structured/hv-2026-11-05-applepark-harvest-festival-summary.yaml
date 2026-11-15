@@ -1,0 +1,242 @@
+format:
+  master_version: '1.0'
+  master_git_commit: 9ea11befdff66146bdcc47176a605d8957a58117
+
+observation_facts:
+  raw_title: 弘前市りんご公園 ひろさきりんご収穫祭・時系列統合記録
+  overview:
+    - '観測期間: 2026-10-30 08:21〜2026-11-05 08:22'
+    - '場所: 弘前市りんご公園 ふれあい広場'
+    - '観測対象: ひろさきりんご収穫祭2026 仮設設備・空間状態の時系列変化'
+    - '対象期間: 2026年10月30日〜11月5日'
+  official_event_information:
+    event_name: ひろさきりんご収穫祭2026
+    dates:
+      - '2026-10-31'
+      - '2026-11-01'
+    hours: '両日とも10:00〜15:00'
+    venue: 弘前市りんご公園
+    source:
+      label: ひろさきりんご収穫祭2026｜弘前市公式
+      url: 'https://www.city.hirosaki.aomori.jp/ringopark/2024-1018-1003-37.html'
+    raw_statement:
+      - 公式情報は開催条件を確認するための背景資料であり、現地の設備状態や撤去状況を証明するものではない。
+      - 11月2日はイベント開催日ではなく、開催終了後に該当する。
+  observation_records:
+    - observation_id: OBS-20261030-0821-001
+      datetime: '2026-10-30T08:21:00+09:00'
+      event_phase: 開催前
+      weather_and_ground: 曇り・路面濡れ
+      statements:
+        - 大型白天幕1棟を確認。
+        - 集会用パイプテント複数列を確認。
+        - 三角コーン、長テーブル、案内スタンドを確認。
+        - 人流は確認されず。
+        - 岩木山山頂部は雲に覆われていた。
+    - observation_id: OBS-20261101-1401-001
+      datetime: '2026-11-01T14:01:00+09:00'
+      event_phase: 開催中
+      weather_and_ground: 曇り・路面乾燥
+      statements:
+        - テント群を確認。
+        - 黄色・青色等のキッチンカーを確認。
+        - 音響機材を確認。
+        - 手すり部分に風船装飾を確認。
+        - 多数の来場者の滞留・移動を確認。
+        - 岩木山の全貌を視認可能。
+    - observation_id: OBS-20261102-0843-001
+      datetime: '2026-11-02T08:43:00+09:00'
+      event_phase: 開催終了後
+      weather_and_ground: 雨・路面全濡れ・水たまり
+      statements:
+        - 芝生上にテント構造体が残存。
+        - 収穫祭の看板を確認。
+        - キッチンカー、音響機材、風船装飾は確認されず。
+        - 人流は確認されず。
+        - 雲・霧により岩木山は視認できず。
+      context:
+        - この日は公式開催日程の翌日であり、イベントは前日に終了している。
+    - observation_id: OBS-20261105-0822-001
+      datetime: '2026-11-05T08:22:00+09:00'
+      event_phase: 開催終了後・撤去確認時点
+      weather_and_ground: 曇り・路面乾燥
+      statements:
+        - 撮影範囲内で仮設テント、パイプフレーム、案内看板、規制用コーン、装飾等は確認されず。
+        - 常設の東屋および遊具を確認。
+        - 人流は確認されず。
+        - 岩木山は中腹まで視認可能。山頂には笠雲を確認。
+  observed_changes:
+    temporary_equipment:
+      - observation_id: OBS-20261030-0821-001
+        state: 開催前の設営状態
+        description: 広場に大型白天幕および複数のパイプテントが設置されていた。
+      - observation_id: OBS-20261101-1401-001
+        state: イベント開催中の設備展開状態
+        description: テント群に加え、キッチンカー、音響機材、風船装飾などを確認。来場者の滞留・移動も確認された。
+      - observation_id: OBS-20261102-0843-001
+        state: 開催終了後の設備残存状態
+        description: キッチンカー、音響機材、風船装飾は確認されず、テント構造体等の一部設備が残存していた。
+      - observation_id: OBS-20261105-0822-001
+        state: 仮設設備の撤去確認
+        description: 撮影範囲内で仮設設備は確認されず、常設設備を中心とした広場の状態が確認された。
+    ground_conditions:
+      - date: '2026-10-30'
+        state: 濡れ
+      - date: '2026-11-01'
+        state: 乾燥
+      - date: '2026-11-02'
+        state: 全体的に濡れ、水たまりあり
+      - date: '2026-11-05'
+        state: 乾燥
+    vegetation_and_surrounding_landscape:
+      - 広場奥のりんご園・樹木群および岩木山周辺の植生について、観測画像間で色調の違いが見られる。
+      - 秋期の黄葉・落葉の進行との関連が考えられるが、撮影条件や対象範囲の違いもあるため、季節変化としての確定には継続観測が必要。
+  comparison_focus:
+    - 開催前と開催中における仮設設備の構成差。
+    - 開催中に追加されていた設備・装飾の種類。
+    - 開催終了後に確認されなくなった設備。
+    - 開催終了後も残存していた設備。
+    - 開催終了後から11月5日までの設備状態の変化。
+    - 常設設備とイベント用仮設設備の区別。
+    - 同一場所におけるイベント前後の空間利用の変化。
+  unconfirmed_items:
+    - テントおよび各仮設設備の正確な設置完了日時。
+    - 11月1日のイベント終了後、各設備が撤去された具体的な時刻。
+    - 11月2日から11月5日までの撤去作業の進行状況。
+    - 11月5日の撮影範囲外における仮設設備の残存状況。
+    - 植生の色調変化における撮影条件と季節変化の寄与割合。
+    - 個別観測記録のファイルパス。RawにはGitHub登録時に既存ファイルとの対応を確認して補完すると記載されている。
+  future_comparison_candidates:
+    - イベント開催前の設営状況。
+    - 開催中の設備構成と人流。
+    - 開催終了直後の設備残存状況。
+    - 開催終了後の撤去進行状況。
+    - 平時の公園空間への復帰状態。
+    - 複数年の記録が蓄積された場合、イベントごとの設営・撤収パターンや、同一場所の利用形態の変化を比較できる可能性がある。
+  data_integrity_notes:
+    - 直接観測と推知・解釈を区別する。
+    - 推知を記録する場合は、根拠となる観測事実を保持する。
+    - 推知が後から否定された場合でも、元の観測記録は変更しない。
+    - 公式情報は背景条件の確認に利用し、現地観測の代替にはしない。
+    - 未確認事項は未確認のまま保持する。
+    - 観測間の空白期間に発生した出来事を、連続して確認された事実として扱わない。
+    - 統合記録から個別観測記録および一次画像へ遡れる構造を維持する。
+
+contemporary_context:
+  observation_purpose:
+    - 弘前市りんご公園のふれあい広場において、2026年の「ひろさきりんご収穫祭」の開催に伴う空間の状態変化を記録する。
+    - 特に、常設の公園空間に対して仮設設備がどのように設置・追加され、イベント開催中にどのように利用され、開催終了後にどのように撤去されるかという一連の変化に注目する。
+    - 本記録はイベントの紹介を目的とするものではなく、同一場所におけるイベント前・開催中・開催終了後の物理的状態を比較可能な形で保存することを目的とする。
+  original_interpretations:
+    - interpretation: 10月30日のテント群は、翌日からのイベント開催に向けて設置されていた可能性が高い。
+      classification: Rawに記載された推知・解釈
+    - interpretation: 11月1日に確認されたキッチンカー、音響機材、風船装飾等は、イベント開催に伴って展開された設備と考えられる。
+      classification: Rawに記載された推知・解釈
+    - interpretation: 11月2日に一部設備が確認されなかったことは、イベント終了に伴う撤収過程と整合する。
+      classification: Rawに記載された推知・解釈
+    - interpretation: 11月5日に仮設設備が確認されなかったことから、撮影範囲内では平時の公園空間に戻っていたと考えられる。
+      classification: Rawに記載された推知・解釈
+  interpretation_boundary:
+    - これらの推知は、個別観測の直接観測内容を変更・代替するものではない。
+    - 公式開催日程はイベントフェーズを整理する背景条件であり、現地の設備状態を証明するものではない。
+    - 観測間の空白期間の状態は連続して確認された事実ではない。
+
+structure:
+  classification_by: AI
+  state:
+    description: 4つの観測時点それぞれにおける、りんご公園ふれあい広場の物理的状態。
+    observation_ids:
+      - OBS-20261030-0821-001
+      - OBS-20261101-1401-001
+      - OBS-20261102-0843-001
+      - OBS-20261105-0822-001
+  change:
+    status: determined_from_multiple_observations
+    description: 同一場所の4時点の観測記録に基づき、イベント用仮設設備の展開・一部残存・撮影範囲内での撤去確認という状態変化が記録されている。
+    comparison_sources:
+      - observations/2026-11-05-applepark-harvest-festival-summary.md
+      - OBS-20261030-0821-001
+      - OBS-20261101-1401-001
+      - OBS-20261102-0843-001
+      - OBS-20261105-0822-001
+    limits:
+      - 各観測時点の間の状態は連続的に確認されていない。
+      - 設備の設置・撤去が行われた正確な時刻は特定されていない。
+      - 11月5日の「確認されず」は撮影範囲内に限られる。
+  event:
+    status: identified
+    event_name: ひろさきりんご収穫祭2026
+    classification_basis:
+      - Rawにイベント名が明記されている。
+      - 公式開催日程がRaw内に参照情報として記載されている。
+    phases:
+      - observation_id: OBS-20261030-0821-001
+        phase: 開催前
+        basis: 公式開催日10月31日より前の観測。
+      - observation_id: OBS-20261101-1401-001
+        phase: 開催中
+        basis: 公式開催日程内の観測。
+      - observation_id: OBS-20261102-0843-001
+        phase: 開催終了後
+        basis: 公式開催日程の翌日の観測。
+      - observation_id: OBS-20261105-0822-001
+        phase: 開催終了後・撤去確認時点
+        basis: 公式開催日程終了後の観測。Rawに記載された呼称を保持。
+  relationships:
+    same_series:
+      - apple-park-2026
+    same_location:
+      - 弘前市りんご公園 ふれあい広場
+    sequence:
+      - OBS-20261030-0821-001
+      - OBS-20261101-1401-001
+      - OBS-20261102-0843-001
+      - OBS-20261105-0822-001
+    previous_observation: not_specified
+    next_observation: not_specified
+    related_records: []
+    note: Rawは4時点の個別観測を統合している。個別観測記録のファイルパスはRawに未記載のため補完していない。
+
+ai_interpretation:
+  items: []
+  note: Rawに記載された推知・解釈はContemporary Contextに原記録として保持した。ここには新たなAI解釈を追加していない。
+
+residual:
+  status: empty
+  entries: []
+
+provenance:
+  source_raw: observations/2026-11-05-applepark-harvest-festival-summary.md
+  raw_front_matter:
+    id: hv-2026-11-05-applepark-harvest-festival-summary
+    date: '2026-11-05'
+    location: apple-park
+    title: 弘前市りんご公園 ひろさきりんご収穫祭・時系列統合記録
+    series: apple-park-2026
+    type: event-time-series-summary
+    observer: Hirosaki-View
+    direct_observation: false
+    period: '2026-10-30T08:21:00+09:00 - 2026-11-05T08:22:00+09:00'
+  evidence:
+    - observation_id: OBS-20261030-0821-001
+      files:
+        - 3477.jpg
+    - observation_id: OBS-20261101-1401-001
+      files:
+        - 3493.jpg
+    - observation_id: OBS-20261102-0843-001
+      files:
+        - 3495.jpg
+    - observation_id: OBS-20261105-0822-001
+      files:
+        - 3545.jpg
+  observation_confidence:
+    value: not_stated
+    basis: RawにObservation Confidenceの明示的な評価はない。
+  navigation:
+    - label: 観測カタログ
+      target: observations/index.md
+  generator: ChatGPT GPT-6 (manual reconstruction)
+  generated_at: '2026-11-15'
+  master_version: '1.0'
+  master_git_commit: 9ea11befdff66146bdcc47176a605d8957a58117
