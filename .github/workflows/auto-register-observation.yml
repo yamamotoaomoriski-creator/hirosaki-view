@@ -11,12 +11,52 @@ jobs:
     permissions:
       contents: write
       issues: read
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # ここにMarkdownや画像ファイルをリポジトリへ書き込むスクリプト・処理を記述
-      - name: Run register script
+      - name: Set up Git User
         run: |
-          echo "Registering observation for issue ${{ github.event.issue.number }}"
-          # 実際の登録処理コマンドをここに置く
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.io"
+
+      - name: Create and Push Markdown File from Issue
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          python3 -c '
+          import os
+          import re
+
+          title = os.environ.get("ISSUE_TITLE", "").strip()
+          body = os.environ.get("ISSUE_BODY", "")
+
+          # タイトルをそのままファイルパスとして使用（例: observations/xxx.md）
+          # 万が一パスカルケースや余計なスラッシュがあれば調整
+          file_path = title
+          if not file_path.endswith(".md"):
+              file_path += ".md"
+
+          # ディレクトリが存在するか確認し、なければ作成
+          dir_name = os.path.dirname(file_path)
+          if dir_name:
+              os.makedirs(dir_name, exist_ok=True)
+
+          # 本文をファイルに書き込む
+          with open(file_path, "w", encoding="utf-8") as f:
+              f.write(body)
+
+          print(f"Successfully created: {file_path}")
+          '
+
+          # Gitで変更をステージしてコミット＆プッシュ
+          git add .
+          git status
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Auto-register observation from Issue #${{ github.event.issue.number }}"
+            git push
+          fi
