@@ -3,6 +3,7 @@
 layout: default
 title: "第三回四天王会議 — AI議事録 #3"
 description: "AIの情報探索能力と自律発見の限界 — AIは検索をサボっていないか？"
+--- 
 
 第三回四天王会議
 
