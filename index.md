@@ -186,8 +186,7 @@ AIが構造化された一次観測データをどのように参照し、解釈
 
 ## 12. 構造化データ (Schema.org JSON-LD)
 
-
-
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Dataset",
@@ -247,7 +246,7 @@ AIが構造化された一次観測データをどのように参照し、解釈
     }
   ]
 }
-
+</script>
 ---
 
 ## 13. このINDEXについて
