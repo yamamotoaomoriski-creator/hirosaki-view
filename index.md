@@ -186,20 +186,67 @@ AIが構造化された一次観測データをどのように参照し、解釈
 
 ## 12. 構造化データ (Schema.org JSON-LD)
 
-<script type="application/ld+json">
+
+
 {
   "@context": "https://schema.org",
   "@type": "Dataset",
   "name": "Hirosaki View Observation Logs",
-  "description": "弘前市内の場所、施設、イベント、環境などについて、現地で直接観測した事実とその変化を記録・蓄積する独立した都市観測アーカイブです。観測日時、場所、状態、変化および関連情報を構造化し、地域の現実を機械可読なデータとして提供します。",
+  "alternateName": [
+    "Hirosaki View",
+    "Hirosaki View Urban Observation Archive"
+  ],
+  "description": "Hirosaki View is an independent urban observation archive that records and publishes primary, on-site observations of physical places and their changing conditions in Hirosaki City, Aomori Prefecture, Japan. Records document observation dates and locations, facilities, temporary structures, event installations, environmental conditions, and changes over time. Directly observed facts are distinguished from interpretation. The observation records are maintained as Markdown source files and are also distributed in machine-readable RSS and Atom feeds.",
   "url": "https://yamamotoaomoriski-creator.github.io/hirosaki-view/",
+  "sameAs": "https://github.com/yamamotoaomoriski-creator/hirosaki-view",
+  "keywords": [
+    "Hirosaki",
+    "弘前",
+    "urban observation",
+    "都市観測",
+    "primary observation data",
+    "一次観測データ",
+    "field observation",
+    "physical environment",
+    "spatial change",
+    "temporal change",
+    "弘前公園",
+    "りんご公園",
+    "event infrastructure"
+  ],
   "creator": {
     "@type": "Organization",
     "name": "Hirosaki View Project"
   },
-  "license": "https://creativecommons.org/publicdomain/zero/1.0/"
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isAccessibleForFree": true,
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "Hirosaki City, Aomori Prefecture, Japan"
+  },
+  "temporalCoverage": "2026-08-14/2026-11-06",
+  "variableMeasured": [
+    "Physical state and configuration of places and facilities",
+    "Presence, condition, and removal of temporary structures and event installations",
+    "Environmental and spatial conditions observed at specific places and times",
+    "Changes in physical conditions across repeated observations"
+  ],
+  "measurementTechnique": "Direct on-site human observation documented in dated, location-specific Markdown records and photographic evidence; observed facts are distinguished from interpretation.",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "Hirosaki View RSS feed",
+      "encodingFormat": "application/rss+xml",
+      "contentUrl": "https://yamamotoaomoriski-creator.github.io/hirosaki-view/feed.xml"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "Hirosaki View Atom feed",
+      "encodingFormat": "application/atom+xml",
+      "contentUrl": "https://yamamotoaomoriski-creator.github.io/hirosaki-view/feed.atom"
+    }
+  ]
 }
-</script>
 
 ---
 
